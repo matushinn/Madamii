@@ -7,24 +7,44 @@
 //
 
 import UIKit
+import NCMB
 
-class SignInViewController: UIViewController {
-
+class SignInViewController: UIViewController, UITextFieldDelegate {
+    
+    @IBOutlet var userIdTextField: UITextField!
+    @IBOutlet var passwordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        userIdTextField.delegate = self
+        passwordTextField.delegate = self
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
-    */
-
+    
+    @IBAction func signIn() {
+        
+        if (userIdTextField.text?.characters.count)! > 0 && (passwordTextField.text?.characters.count)! > 0 {
+            
+            NCMBUser.logInWithUsername(inBackground: userIdTextField.text!, password: passwordTextField.text!) { (user, error) in
+                if error != nil {
+                    print(error)
+                } else {
+                    // ログイン成功
+                    let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+                    let rootViewController = storyboard.instantiateViewController(withIdentifier: "MainController")
+                    UIApplication.shared.keyWindow?.rootViewController = rootViewController
+                    
+                    // ログイン状態の保持
+                    let ud = UserDefaults.standard
+                    ud.set(true, forKey: "isLogin")
+                    ud.synchronize()
+                }
+            }
+        }
+    }
 }

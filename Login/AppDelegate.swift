@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NCMB
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //連携完了
+        NCMB.setApplicationKey("a5a3f709c850a8fffd77e469f087a4dcefba2170bee1d6b05f3bd2b39d4948e2", clientKey: "221a0fb3387d749d33fb7ea7e767354e88b6ae5585180c3925613136fe9a6db6")
+        
+        let ud = UserDefaults.standard
+        let isLogin = ud.bool(forKey: "isLogin")
+        
+        if isLogin == true {
+            // ログイン中だったら
+            //画面の大きさ
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            //Bundle.mainはこの中
+            let storyboard = UIStoryboard(name: "Main"
+                , bundle: Bundle.main)
+            let rootViewController = storyboard.instantiateViewController(withIdentifier: "MainController")
+            self.window?.rootViewController = rootViewController
+            //小技　見えていけない画面を減らすため。
+            self.window?.backgroundColor = UIColor.white
+            //その画面を表示
+            self.window?.makeKeyAndVisible()
+        } else {
+            // ログインしていなかったら
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            let storyboard = UIStoryboard(name: "SignIn", bundle: Bundle.main)
+            let rootViewController = storyboard.instantiateViewController(withIdentifier: "SignInController")
+            self.window?.rootViewController = rootViewController
+            self.window?.backgroundColor = UIColor.white
+            self.window?.makeKeyAndVisible()
+        }
         return true
     }
 

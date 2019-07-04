@@ -9,8 +9,6 @@
 import UIKit
 
 class TopViewController: UIViewController {
-
-    
     @IBOutlet weak var signUp: UIButton!
     
     override func viewDidLoad() {
@@ -19,8 +17,5 @@ class TopViewController: UIViewController {
         //角丸サイズ
         signUp.layer.cornerRadius = 10.0
     }
-    
-
-    
-
+   
 }
