@@ -16,6 +16,8 @@
 		37B77E0222CDCFEF0051F735 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B77E0122CDCFEF0051F735 /* SignInViewController.swift */; };
 		37B77E0422CDCFFA0051F735 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B77E0322CDCFFA0051F735 /* SignUpViewController.swift */; };
 		37B77E0622CDEB7D0051F735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B77E0522CDEB7D0051F735 /* Main.storyboard */; };
+		37B77E0822CE4B4C0051F735 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B77E0722CE4B4C0051F735 /* EditProfileViewController.swift */; };
+		37B77E0A22D177510051F735 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37B77E0922D177500051F735 /* placeholder.jpg */; };
 		A385305BA7FEEE1B39A4B1A1 /* Pods_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464067CF2A081B3C1C5C6D9B /* Pods_Login.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		37B77E0122CDCFEF0051F735 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		37B77E0322CDCFFA0051F735 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		37B77E0522CDEB7D0051F735 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		37B77E0722CE4B4C0051F735 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		37B77E0922D177500051F735 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
 		464067CF2A081B3C1C5C6D9B /* Pods_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD58B626E914582E0C375599 /* Pods-Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.release.xcconfig"; path = "Pods/Target Support Files/Pods-Login/Pods-Login.release.xcconfig"; sourceTree = "<group>"; };
 		FCAD8B8A2D1021C31B6BBC5A /* Pods-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Login/Pods-Login.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				37B77E0122CDCFEF0051F735 /* SignInViewController.swift */,
 				37B77E0322CDCFFA0051F735 /* SignUpViewController.swift */,
 				37B77E0522CDEB7D0051F735 /* Main.storyboard */,
+				37B77E0722CE4B4C0051F735 /* EditProfileViewController.swift */,
+				37B77E0922D177500051F735 /* placeholder.jpg */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -163,6 +169,7 @@
 				37B77DF622CDC4EE0051F735 /* LaunchScreen.storyboard in Resources */,
 				37B77DF322CDC4EE0051F735 /* Assets.xcassets in Resources */,
 				37B77DF122CDC4EA0051F735 /* SignIn.storyboard in Resources */,
+				37B77E0A22D177510051F735 /* placeholder.jpg in Resources */,
 				37B77E0622CDEB7D0051F735 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,12 +187,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Login/Pods-Login-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/NCMB/NCMB.framework",
+				"${BUILT_PRODUCTS_DIR}/NYXImagesKit/NYXImagesKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NCMB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYXImagesKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -223,6 +232,7 @@
 			files = (
 				37B77E0222CDCFEF0051F735 /* SignInViewController.swift in Sources */,
 				37B77E0022CDCFC20051F735 /* TopViewController.swift in Sources */,
+				37B77E0822CE4B4C0051F735 /* EditProfileViewController.swift in Sources */,
 				37B77DEE22CDC4EA0051F735 /* ViewController.swift in Sources */,
 				37B77DEC22CDC4EA0051F735 /* AppDelegate.swift in Sources */,
 				37B77E0422CDCFFA0051F735 /* SignUpViewController.swift in Sources */,

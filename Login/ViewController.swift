@@ -11,9 +11,43 @@ import NCMB
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var userImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //丸くするコード
+        userImageView.layer.cornerRadius = userImageView.bounds.width / 2.0
+        userImageView.layer.masksToBounds = true
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        if let user = NCMBUser.current() {
+            
+            let file = NCMBFile.file(withName: (user.objectId)!, data: nil) as! NCMBFile
+            
+            file.getDataInBackground { (data, error) in
+                if error != nil{
+                    print(error)
+                }else{
+                    if let image = UIImage(data: data!){
+                        self.userImageView.image = image
+                    }
+                    
+                }
+            }
+        }else{
+            // NCMBUser.current()がnilだったとき
+            let storyboard = UIStoryboard(name: "SignIn", bundle: Bundle.main)
+            let rootViewController = storyboard.instantiateViewController(withIdentifier: "SignInController")
+            UIApplication.shared.keyWindow?.rootViewController = rootViewController
+            
+            // ログイン状態の保持
+            let ud = UserDefaults.standard
+            ud.set(false, forKey: "isLogin")
+            ud.synchronize()
+        }
+        
     }
     
     @IBAction func logout(_ sender: Any) {

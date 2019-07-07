@@ -9,4 +9,5 @@ target 'Login' do
 
  pod 'NCMB', :git => 'https://github.com/NIFCloud-mbaas/ncmb_ios.git'
 
+ pod 'NYXImagesKit'
 end
