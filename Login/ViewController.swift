@@ -13,6 +13,11 @@ class ViewController: UIViewController {
 
     
     @IBOutlet weak var userImageView: UIImageView!
+    
+    @IBOutlet weak var userDisplayNameLabel: UILabel!
+    
+    @IBOutlet weak var userIntroductionTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -23,23 +28,30 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         if let user = NCMBUser.current() {
+            userDisplayNameLabel.text = user.object(forKey: "displayName") as? String
+            userIntroductionTextView.text = user.object(forKey: "introduction") as? String
+            self.navigationItem.title = user.userName
             
-            let file = NCMBFile.file(withName: (user.objectId)!, data: nil) as! NCMBFile
-            
+            let file = NCMBFile.file(withName: user.objectId, data: nil) as! NCMBFile
             file.getDataInBackground { (data, error) in
-                if error != nil{
-                    print(error)
-                }else{
-                    if let image = UIImage(data: data!){
+                if error != nil {
+                    let alert = UIAlertController(title: "画像取得エラー", message: error!.localizedDescription, preferredStyle: .alert)
+                    let okAction = UIAlertAction(title: "OK", style: .default, handler: { (action) in
+                        
+                    })
+                    alert.addAction(okAction)
+                    self.present(alert, animated: true, completion: nil)
+                } else {
+                    if data != nil {
+                        let image = UIImage(data: data!)
                         self.userImageView.image = image
                     }
-                    
                 }
             }
-        }else{
+        } else {
             // NCMBUser.current()がnilだったとき
             let storyboard = UIStoryboard(name: "SignIn", bundle: Bundle.main)
-            let rootViewController = storyboard.instantiateViewController(withIdentifier: "SignInController")
+            let rootViewController = storyboard.instantiateViewController(withIdentifier: "RootNavigationController")
             UIApplication.shared.keyWindow?.rootViewController = rootViewController
             
             // ログイン状態の保持
@@ -47,7 +59,6 @@ class ViewController: UIViewController {
             ud.set(false, forKey: "isLogin")
             ud.synchronize()
         }
-        
     }
     
     @IBAction func logout(_ sender: Any) {
