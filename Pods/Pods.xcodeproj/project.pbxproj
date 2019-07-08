@@ -8,130 +8,163 @@
 
 /* Begin PBXBuildFile section */
 		0334415F78186696476DD454EBE96861 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007E3CD52E56B46DF23EFE6F0194F8DE /* ImageIO.framework */; };
-		07AAB66C20CBB44113C07139E44B38A8 /* UIImage+Enhancing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A441C44927380A599D3952D82089418 /* UIImage+Enhancing.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0927CAA2995A82D6EB39072A9FC260D4 /* NCMBCloseImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB0285E64ECCB5690DAA281035E4B23B /* NCMBCloseImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		098DAE799E41CA89FA5F1CB006C443AE /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E94A656854C973850C04FFE1B2DFB709 /* NCMBSetOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		09F4B19C1338B487EC8DE228E221CE90 /* NYXProgressiveImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = A50ED225FB5454EAE667038C7EBCDD25 /* NYXProgressiveImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A375B13BE43C7EA92BBA14A204F71C5 /* NCMBUser+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF505222DFCFE9402EE9290AEEA7541 /* NCMBUser+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F22F46669F72C1C1978C2DC563F3FB3 /* UIImage+Masking.h in Headers */ = {isa = PBXBuildFile; fileRef = BF17DF5BF154488CFCFD900B64EF1CF4 /* UIImage+Masking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11BB9EA8F66B9AA488F822EA1EF821DA /* NCMBRole.h in Headers */ = {isa = PBXBuildFile; fileRef = DF62374A4708CFFC5F00C4478BF629A4 /* NCMBRole.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11CB32BE84FFC24AD2A0B7C29AF8050A /* NCMB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BFAF58440F03B53831304D099A2C5 /* NCMB-dummy.m */; };
-		15135C09F4E074C64F92926CC7D49714 /* UIImage+Enhancing.h in Headers */ = {isa = PBXBuildFile; fileRef = A3220D569FFED28267251460C98FC374 /* UIImage+Enhancing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15A729FC483EC4F3AB0AB54CFCBF8ED6 /* Pods-Login-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A115F63E29DC42400FE1278B2C51CE /* Pods-Login-dummy.m */; };
-		17386D29AF100CB4EF97A427DFAF3091 /* UIImage+Resizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CBF658A6BA3F239ADA1DB1CC39C001 /* UIImage+Resizing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		175D7E71E7B2FC2B9CB6C046C051C667 /* NCMBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4448D6FA39A09D8399A44B0D72CCB5 /* NCMBReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1C666044068E196287B31C0D9A45F55D /* NCMBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = A45A354E975889D8AE31AE4FC7C8D85C /* NCMBQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1D5FC4BC40CD6BA3A887E8C656B2B0AD /* NYXImagesKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 202823DC53C88E6525D1F74E64121414 /* NYXImagesKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E56FFF35F34638AF041417CBEF4A9E4 /* NSDataBase64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ACD51E040E070EEF98B063DB67E807 /* NSDataBase64Encode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2030C5A29D786AF34BAA55D3BF99D04B /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = B400DB1342C9F769EBB15D8C39B43501 /* NCMB.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		21F4EBB5607BA743DECDFB971B7CEC33 /* NCMBDeleteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31501425FC3BEFA8F47E7226A30221 /* NCMBDeleteOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		246122E6C372D6C99DDB9C15CCC3B576 /* NCMBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA76B0FB8EC45FBE901CE78B6F8DC8B /* NCMBAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27ECEDAD9B599714E5BE031249E60B11 /* UIImage+Saving.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B98EB5BC60B36AFAFE6B94640A4362E /* UIImage+Saving.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2A95F5FA44CF25FF9EC3E95A143BB213 /* NCMBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376FEF2907BEB4164197BF321D3DC0D /* NCMBRelation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0581EFF9F44E480248456AA71120D1BC /* UITextView+Placeholder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04231924DF1864ADA4A0863CF174B9C7 /* UITextView+Placeholder-dummy.m */; };
+		07AAB66C20CBB44113C07139E44B38A8 /* UIImage+Enhancing.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6CE337345EEBA045D553DEC95E0A0 /* UIImage+Enhancing.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0927CAA2995A82D6EB39072A9FC260D4 /* NCMBCloseImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = D3325277099DE38768775705F2E3A3AA /* NCMBCloseImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		098DAE799E41CA89FA5F1CB006C443AE /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C2496661E55D928FF1182061C0B0C087 /* NCMBSetOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		09F4B19C1338B487EC8DE228E221CE90 /* NYXProgressiveImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = FB4EC127842CEAC28B851663B52CBB96 /* NYXProgressiveImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A375B13BE43C7EA92BBA14A204F71C5 /* NCMBUser+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 506CF81D96221EEE1D617EC8578186C9 /* NCMBUser+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F22F46669F72C1C1978C2DC563F3FB3 /* UIImage+Masking.h in Headers */ = {isa = PBXBuildFile; fileRef = 455C208818F1C59DBA36B2BB3C13807E /* UIImage+Masking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11BB9EA8F66B9AA488F822EA1EF821DA /* NCMBRole.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D869F0C53606F10639C121EDAC2C060 /* NCMBRole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11CB32BE84FFC24AD2A0B7C29AF8050A /* NCMB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C97743C0969F8AACBFCCD766756C8 /* NCMB-dummy.m */; };
+		15135C09F4E074C64F92926CC7D49714 /* UIImage+Enhancing.h in Headers */ = {isa = PBXBuildFile; fileRef = 025778308657BC3ABDAC17D85736BC52 /* UIImage+Enhancing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		170FE188F3F594AEC5155F669FA8B26F /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = E70861AF017D29E4AFFF811B4871D9F9 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17386D29AF100CB4EF97A427DFAF3091 /* UIImage+Resizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E939887C071C89FD1968B7B450E6832 /* UIImage+Resizing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		175D7E71E7B2FC2B9CB6C046C051C667 /* NCMBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B15E77288FB8519B011094E0CCE6455 /* NCMBReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1C666044068E196287B31C0D9A45F55D /* NCMBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D8213A9C47FDA9CAF250A93B26080F /* NCMBQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1D5FC4BC40CD6BA3A887E8C656B2B0AD /* NYXImagesKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB09D6325FABDB87E9FEFC6C187B1D4 /* NYXImagesKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E56FFF35F34638AF041417CBEF4A9E4 /* NSDataBase64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A25653BC490D55C2A231E3A00D4AB75 /* NSDataBase64Encode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2030C5A29D786AF34BAA55D3BF99D04B /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B7FE5D1BBAE67CCEE67CC7504E8780 /* NCMB.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		21F4EBB5607BA743DECDFB971B7CEC33 /* NCMBDeleteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8067A6CA881B1D4BF3A634473D0C1B /* NCMBDeleteOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		246122E6C372D6C99DDB9C15CCC3B576 /* NCMBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFF43E96B9CE880064E16A05B0AFBE7 /* NCMBAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27ECEDAD9B599714E5BE031249E60B11 /* UIImage+Saving.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914488859B8CB1597311DA8E3835926 /* UIImage+Saving.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2A60F68B5BD25258469953F29D288D03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF48A2169B13BB433B6EB654058C90E /* Foundation.framework */; };
+		2A95F5FA44CF25FF9EC3E95A143BB213 /* NCMBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 129F4675079B422D8229E3F15F7FB5B2 /* NCMBRelation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2B7E1C749725E5F335D952F7CC39D7FC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFE2D03715E61DF5D47079C91781760 /* AudioToolbox.framework */; };
-		2F01B62D90525A860345C2AC6B0A9D6E /* UIImage+Filtering.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB20EFF6038FD0E48897DB3B2DF54 /* UIImage+Filtering.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		31AB6454B8F39AB0670E7A1048DD8F6E /* SubClassHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3178A992B0CB5DC25AE46E96090D8D /* SubClassHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		341D38CFE09A750FCB245F5D363C9DD8 /* NCMBScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1DAACC7088D61A842FF77C4C959E1 /* NCMBScript.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		35E666C06C0DA944D367A381BD30CF54 /* UIImage+Filtering.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B67BE5B0F261A55246F9B3DA01F803 /* UIImage+Filtering.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38AD4FBA052CB6D4B9B0C5B71848385B /* NCMBRemoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAFA74099E11ACE02E21304154BB10B /* NCMBRemoveOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3A428EDFC5CC231D4E63F2543AA783C1 /* NYXImagesKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1761C7C0E9D45D60B8182144E276A055 /* NYXImagesKit-dummy.m */; };
-		3D3F772052E11958D293170A57E2EBE4 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = BE28EDF3A9F022B08522B38B90BAE891 /* UIView+Screenshot.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		461C33B838F78B694A879DF81EDB6252 /* NCMBRichPushView.h in Headers */ = {isa = PBXBuildFile; fileRef = C90CDD7BAFF054E2356203BBF4D16085 /* NCMBRichPushView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46FBB9A2C71C19A24696AF30EB06D52F /* NYXImagesKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A83ABD4CCCE6718866A2EE60878680E7 /* NYXImagesKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4865593880A679E06B882EA82260392F /* UIImage+Rotating.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0616907BE6BC37EBE65B933138DA62 /* UIImage+Rotating.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4CE30F64D65F4C1E9FC3B339630D3F7A /* UIImage+Reflection.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CE147A766EF11167321A5DCD9FD54A /* UIImage+Reflection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4E2E2961C554D85AE117E85A2299C662 /* NCMBSubclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C5A1447CD73B433E0F7F299DD0E83D /* NCMBSubclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51A71E761CE7945CDD6DDA3D65E0E622 /* NCMBObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DCBDA6B7A853F61A4311770FD5E30C8 /* NCMBObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51FC761BD9FF7A9462E373AE44BDE7E7 /* NCMBACL.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F1D48501365904C658118B828B530D /* NCMBACL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5222923842A7B3A26CDE5479A7F8FFEC /* NCMBAddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B68326C6F7D426AF8F0976F7B833BB /* NCMBAddOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5301650FD2393926569FFF19113AC6A4 /* NCMB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 884F2670A453ED3A8CE2AEE620435FE5 /* NCMB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		540231F135B3F174AC4628DB57845DD7 /* UIImage+Rotating.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB69C1282AA1D16B5BB5826DF5EE9FD /* UIImage+Rotating.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55AC57C95585EDFA96642590A9D8160D /* NCMB.h in Headers */ = {isa = PBXBuildFile; fileRef = 58EB136E3F6D04533360176A62D05A6A /* NCMB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5649A145DD7B9F6531F7878F005B5027 /* NCMBDeleteOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 46B0267D56B344601EB0EDF12A175B4B /* NCMBDeleteOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D0C573F1406C18A82E7C012DC92CF16 /* NCMBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B68F16249309D47C101FE053A7F1444 /* NCMBFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		60E7580DA1CE572E4C29008C5E840CE6 /* NCMBScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CB763CEB9868E3F86ED7C42A9CAD8A /* NCMBScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E7FF60074647C1351CC35E0361B9A35 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB27271D0E265FBC1389402A6FE469E5 /* SVProgressAnimatedView.m */; };
+		2F01B62D90525A860345C2AC6B0A9D6E /* UIImage+Filtering.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6431D68F64EA07E4B12C5F4FE2BBE0 /* UIImage+Filtering.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		30A835068233AE7413638E0E923FAD94 /* UITextView+Placeholder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000F65040392D161C976F51F4460AE8E /* UITextView+Placeholder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31AB6454B8F39AB0670E7A1048DD8F6E /* SubClassHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F5BC27B08E1FEA2F286EFEAE7F9391 /* SubClassHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		341D38CFE09A750FCB245F5D363C9DD8 /* NCMBScript.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7735B9E7B6F8B6639AACAC3391D93F /* NCMBScript.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		35E666C06C0DA944D367A381BD30CF54 /* UIImage+Filtering.h in Headers */ = {isa = PBXBuildFile; fileRef = DB254AA7E5FFB217D8276D08A913AFEA /* UIImage+Filtering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38AD4FBA052CB6D4B9B0C5B71848385B /* NCMBRemoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D85324CAD3C6F0130188E89C7A76AB /* NCMBRemoveOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3A428EDFC5CC231D4E63F2543AA783C1 /* NYXImagesKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D2916330752AE12EDFFF628C04FB3A /* NYXImagesKit-dummy.m */; };
+		3D3F772052E11958D293170A57E2EBE4 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA1FFD7CC6D116822F1876BFDCC2331 /* UIView+Screenshot.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		461C33B838F78B694A879DF81EDB6252 /* NCMBRichPushView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E82993B05234F408C24D6D10B768103 /* NCMBRichPushView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46FBB9A2C71C19A24696AF30EB06D52F /* NYXImagesKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC9E350D1503C27232A0296A99321B2 /* NYXImagesKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4865593880A679E06B882EA82260392F /* UIImage+Rotating.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EEC8F61076CB54C92285DDA9C698D7 /* UIImage+Rotating.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4B3F500C9A7A30CCE6A7D16554B03E29 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A7B262C9DF3DE930A8F1B26FB0A46D0 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CE30F64D65F4C1E9FC3B339630D3F7A /* UIImage+Reflection.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1F7032CEA123C93D9ACB01FC36939D /* UIImage+Reflection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E2E2961C554D85AE117E85A2299C662 /* NCMBSubclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0CFEEDCE28D33F101C91513F7922F7 /* NCMBSubclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51A71E761CE7945CDD6DDA3D65E0E622 /* NCMBObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B2FF8A74F599D760C2E8D2DAA42E69A8 /* NCMBObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51FC761BD9FF7A9462E373AE44BDE7E7 /* NCMBACL.m in Sources */ = {isa = PBXBuildFile; fileRef = C188EDE80B5330FCCDF49B29F5A88FB4 /* NCMBACL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5222923842A7B3A26CDE5479A7F8FFEC /* NCMBAddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B458F8DFB79AB7BE0C8B34A28E6CF501 /* NCMBAddOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5301650FD2393926569FFF19113AC6A4 /* NCMB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6B392C0DEFA3E3E24D74872F94FCB63 /* NCMB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		540231F135B3F174AC4628DB57845DD7 /* UIImage+Rotating.h in Headers */ = {isa = PBXBuildFile; fileRef = 8940DCAAB8401F91D7CFAB95B6960166 /* UIImage+Rotating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55AC57C95585EDFA96642590A9D8160D /* NCMB.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F848E693BA13C781690070E0409567 /* NCMB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5649A145DD7B9F6531F7878F005B5027 /* NCMBDeleteOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC4C11465FEBF648C1AC7C548847B09 /* NCMBDeleteOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		581AFD60F9476BFC9B8EB417BE266401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF48A2169B13BB433B6EB654058C90E /* Foundation.framework */; };
+		5D0C573F1406C18A82E7C012DC92CF16 /* NCMBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A9D33D356F45EDB125DBA257C5FC65 /* NCMBFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		60E7580DA1CE572E4C29008C5E840CE6 /* NCMBScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B80A02A4CFC590140437857AC5968ED /* NCMBScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		650842392FF689CA0D419C416E8136EE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CF965692B9022962D59873C410B203 /* QuartzCore.framework */; };
-		6728BE7298E0F80AFD367ADDD9CE3416 /* NCMBIncrementOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = BA687F1047F00224C6138A755940EAB7 /* NCMBIncrementOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6768675E685BEEA391461359C1BE98BC /* NCMBAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F12D92A97D3CB66A986FC4FA22EFF30 /* NCMBAnonymousUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		684C1CE807753F2FDB8B09E78FF467C3 /* NCMBError.h in Headers */ = {isa = PBXBuildFile; fileRef = 85513354EB1D9CC05B3D19A1E84BDBA6 /* NCMBError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6728BE7298E0F80AFD367ADDD9CE3416 /* NCMBIncrementOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E390F1E6E6722E72E28C2AD9BA07699E /* NCMBIncrementOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6768675E685BEEA391461359C1BE98BC /* NCMBAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 890AB2C73BFAFAC43F57616B5A1CA13E /* NCMBAnonymousUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		684C1CE807753F2FDB8B09E78FF467C3 /* NCMBError.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1DB857E48C7E782B26F66A53E98543 /* NCMBError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CFD020476111944FAC57B4663DA403A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B233D10A84452F310902282A71333774 /* SystemConfiguration.framework */; };
-		6CFD51EEC68FB20346B320A0A098910B /* NCMBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B638C44B11EF210058BCF7EDEC13CD /* NCMBRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D40729BB0AF42907340E51FBB798305 /* NCMBRemoveOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D2CB81F4FCC6D17B22D9A5D22058B8 /* NCMBRemoveOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F43381039D717A38B70C22244FAD314 /* UIImage+Resizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 293CAA047D8E6A754CE156AF7D6F6B94 /* UIImage+Resizing.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		70924DF82F674E6B5DE41C9E9AE21737 /* UIView+Screenshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 03456F61A4B727CEB4BF5A25B4D119FA /* UIView+Screenshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74CFF41A412A98CC802C7D6129547A75 /* NCMBRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1A6A8A25852223F4A1FBBFE7365749 /* NCMBRelation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CFD51EEC68FB20346B320A0A098910B /* NCMBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9787C91678C44B26C0D8243AB4C4EB94 /* NCMBRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D2A89959334C9555425DC4108F4CEEE /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCF605F754A90CBE1A3E4C0C8BCB8B3 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D40729BB0AF42907340E51FBB798305 /* NCMBRemoveOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBFE776F315A71177FDE16333D79760 /* NCMBRemoveOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F43381039D717A38B70C22244FAD314 /* UIImage+Resizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 407D496CF64BCFA2464A5C381589B782 /* UIImage+Resizing.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		70924DF82F674E6B5DE41C9E9AE21737 /* UIView+Screenshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C079E86EDE347A606B2CA1C7CBAB12E /* UIView+Screenshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		715CF6EB36BBF2DA5F950A688AB730F4 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9C5C952BF3A0F6804FF94FF35B55C7 /* SVProgressHUD-dummy.m */; };
+		74CFF41A412A98CC802C7D6129547A75 /* NCMBRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FEA72551EA0FBFC614713476EE22AA4 /* NCMBRelation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75DB24C0593681B95DA8EE497BF32DE1 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A5D5F014D8979F9C96EF584DEF95F1 /* Accelerate.framework */; };
-		7F9C1FA367ACD343135B0BD9F7A48DA6 /* NCMBDateFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = DE9C1AD95B744F1729F8E7A2B0CE5A4E /* NCMBDateFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83F6F2CFEEFD5D664AC33A826ECEAF2B /* NCMBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1B53DB4C527829C0FA8DAE8382FF72 /* NCMBRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7F9C1FA367ACD343135B0BD9F7A48DA6 /* NCMBDateFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA6E82B19FCF241FA0E4E13D5C7DD3E /* NCMBDateFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82AA6C5B988C6811D711244B624F966B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF48A2169B13BB433B6EB654058C90E /* Foundation.framework */; };
+		83F6F2CFEEFD5D664AC33A826ECEAF2B /* NCMBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383610F24F9B97D3F4057C10F59232A /* NCMBRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		85B2BE35637A9F38786F4D66784681F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF48A2169B13BB433B6EB654058C90E /* Foundation.framework */; };
-		8BBD50F4716D8800B96FCFB913A971D4 /* NCMBRichPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EFDE19D58E53835A0872338E533025 /* NCMBRichPushView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8D16E49FBDE8BFE65AF0D7D6247C9AD2 /* UIImage+Saving.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF70602D0DD453CC79F69468E474B1A /* UIImage+Saving.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DC8BDCDC4BE88CDA4914FFF6BD7C73B /* NCMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F5628415BF95D9B12158A123F6FCF1 /* NCMBObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		93EFCD2A8CD4DD3C447C2C804167971A /* NCMBScriptService.m in Sources */ = {isa = PBXBuildFile; fileRef = FF78253C23C5F5625306F9022C88CFF3 /* NCMBScriptService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		86162EE3F1577B954554F227E61E9F59 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DAC7F215E18D1BE6C920D6282C079C /* SVRadialGradientLayer.m */; };
+		8BBD50F4716D8800B96FCFB913A971D4 /* NCMBRichPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 962DFECF0C544A61A385662D74EB0541 /* NCMBRichPushView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8CAC5058FC9AED5200E6949CDA48418A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CF965692B9022962D59873C410B203 /* QuartzCore.framework */; };
+		8D16E49FBDE8BFE65AF0D7D6247C9AD2 /* UIImage+Saving.h in Headers */ = {isa = PBXBuildFile; fileRef = 9559F7684C2918BEE1A6EFF05C1CF5F4 /* UIImage+Saving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DC8BDCDC4BE88CDA4914FFF6BD7C73B /* NCMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FB41D7B2963DC15E90EFDC79AC40DA20 /* NCMBObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		93EFCD2A8CD4DD3C447C2C804167971A /* NCMBScriptService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0211C3045C2382DB2BC1330AAAAEFA31 /* NCMBScriptService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		93EFE7938FFB05F858E08BA72333751B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A582A77A52CE4A155D0AD4EE92FF7962 /* UIKit.framework */; };
-		952D958B6C69B86DCE9ED4B8C86DE007 /* UIImage+Blurring.m in Sources */ = {isa = PBXBuildFile; fileRef = E32F34AC91F5B2B35DECEDA7A80B06E1 /* UIImage+Blurring.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A02A400C8331683CEFC58A128C8F6ABE /* NCMBInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E20EED6C2A77B65FF4339DFC1EB9C94 /* NCMBInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A69529156E82B5B7F2A354524789AB78 /* NYXImagesHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B25D2D5960DF9200AFCAB8B60699B3E7 /* NYXImagesHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6CE562B90378034EAA31B512EE8CBFB /* NCMBURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BE3CC0A8D823268A567736D409A174 /* NCMBURLSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACEFB9A711846624F5DB8961FD0EB723 /* NCMBFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3A827DB9B1CFCD7D565727562CE48E /* NCMBFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94088E66FFBA5AD55C6E9F2537AEF236 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4CF65DE671049B8111E64CB4FE0F481D /* SVProgressHUD.bundle */; };
+		94F6F30C423E469096FDE0A9ABB4B7FB /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A1C7D7F48E068AB187D0B226561D40 /* UITextView+Placeholder.m */; };
+		952D958B6C69B86DCE9ED4B8C86DE007 /* UIImage+Blurring.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DF919A5E172C1601C4BE97649C86EF /* UIImage+Blurring.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		97FF2ADA8166C55269E8D20864151E6B /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7775E6E796F80F892D7ECB0699FD3FE4 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A02A400C8331683CEFC58A128C8F6ABE /* NCMBInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EEC5EE2B82A17F8E6217844EC0FB5E1 /* NCMBInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A69529156E82B5B7F2A354524789AB78 /* NYXImagesHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E48F65A6B253DDA083A64A05536A675 /* NYXImagesHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6CE562B90378034EAA31B512EE8CBFB /* NCMBURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 19619EF306E0C7DA550716290DA1F89A /* NCMBURLSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACEFB9A711846624F5DB8961FD0EB723 /* NCMBFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 563908AE2AB5AE5BDE97B9218E68DF0A /* NCMBFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD1CE48EFEA4F5DDD98B8C7D7AB5BEE9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3500C35789C5AE7DAC0B264599EBCDE1 /* MobileCoreServices.framework */; };
-		AD3D582B492D4F25734C1FBD464F5FB6 /* NCMBAddUniqueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2197CCB9443A9836FA12C9E2E093E01A /* NCMBAddUniqueOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AD3DAF5BEAE8C0357815AD8D8720C963 /* NCMBUser.h in Headers */ = {isa = PBXBuildFile; fileRef = B541FA9D5E167E327C54406414792D13 /* NCMBUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B10BE57EA3E38E78DFBDBA9A261BD7D7 /* UIImage+Blurring.h in Headers */ = {isa = PBXBuildFile; fileRef = B10C757447272CCDE524693C4D7267EF /* UIImage+Blurring.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B223EE7B2CDC34CB40093010D48C1D27 /* NCMBPush.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7BE3D5D09B76FBB4E799B2F972BA62 /* NCMBPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2A8BA0A01FA8E6354264BE86444BEDD /* NCMBRelationOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E73E72C613E3B1A0C1F004BB948899E6 /* NCMBRelationOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4EE52B6D254E386336F1ACC47175573 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF48A2169B13BB433B6EB654058C90E /* Foundation.framework */; };
-		B58560C936E7CFE7E8835B8B6259E678 /* UIScrollView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C0B42D956DD662417CB2134419A751 /* UIScrollView+Screenshot.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B5EB49B3D621E7A6302E4026BCDF2D8E /* NCMBQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 465DB9E3E31F18DA29F12E197D4536F8 /* NCMBQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B97FC57F2838A706BCEF55D4DBFEB119 /* NCMBPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C57F0E1464344025661FA2848DB920 /* NCMBPush.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BB72D492B625FE75BCFDC3F4686FF411 /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93A4BFAA91F537C7E762FAE2D34E2 /* SubClassHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BBD92C1E38E9752E1F07EB13586C1014 /* NCMBConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BB014FC82CD5CD94FA976233BDF324 /* NCMBConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3D582B492D4F25734C1FBD464F5FB6 /* NCMBAddUniqueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2020A99DC086F20BB6A0A351CC85D6E /* NCMBAddUniqueOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AD3DAF5BEAE8C0357815AD8D8720C963 /* NCMBUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A199A684692AFE37C13ECADEE1EE26 /* NCMBUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B10BE57EA3E38E78DFBDBA9A261BD7D7 /* UIImage+Blurring.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3E430E70CE13671B51092742D890E6 /* UIImage+Blurring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B223EE7B2CDC34CB40093010D48C1D27 /* NCMBPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 729A026A674B700256763B35ED6491EA /* NCMBPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2A8BA0A01FA8E6354264BE86444BEDD /* NCMBRelationOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4701638C0DE0805B1FDE142B835DB7F6 /* NCMBRelationOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B58560C936E7CFE7E8835B8B6259E678 /* UIScrollView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3174D9CE50857631AF157812A2C43980 /* UIScrollView+Screenshot.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B5EB49B3D621E7A6302E4026BCDF2D8E /* NCMBQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 9074975F5BE46CBC648BCBFBA05D9B36 /* NCMBQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B97FC57F2838A706BCEF55D4DBFEB119 /* NCMBPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D33F4AB49E677A886A3E97CD0DDEE28 /* NCMBPush.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BB72D492B625FE75BCFDC3F4686FF411 /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0DF62A08E34E2ED558AE977516ABC4 /* SubClassHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BBD92C1E38E9752E1F07EB13586C1014 /* NCMBConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BB88F66B3239E0DC481062BE4B9EF3FF /* NCMBConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCE5D3B984D27EBA606BB2813810DCDA /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63CBB6BC482A5BAD3888FEE923C1F50 /* CoreImage.framework */; };
-		C3B1F08BF3898795AC92A7D5EBA16611 /* NCMBObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F4C0F27D29B687DE35125EAB402B3E /* NCMBObject+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3D8EAB3A17C2522AFE432CC8BCAFD9A /* NCMBAddUniqueOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF1E5B66DCF7D16986BF1C04EAF0CBF /* NCMBAddUniqueOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD615E8A0D96FE8B49E57F907B171AAB /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CFF738D02105C1A93BBFF907E69BBCEA /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3B1F08BF3898795AC92A7D5EBA16611 /* NCMBObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B71BFF841D8A32A06069D1DB24997AB /* NCMBObject+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3D8EAB3A17C2522AFE432CC8BCAFD9A /* NCMBAddUniqueOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 285FB1EC0224BF4D7D99D1EAB2C1D0EE /* NCMBAddUniqueOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C43D6C1B7420F27E9EA7D19BF13002B8 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B57F6AE103FDAFEC39C1BBD6B1A3DF /* AssetsLibrary.framework */; };
-		C453C4928B8E081219CBD3EE599FB69C /* NCMBACL.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D7C09485EF9364983EA3EAAC175C23 /* NCMBACL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C52A5E9C748B47281004D3E16F733423 /* NCMBObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F23C1EC1343AA60DCDE542B370FF20 /* NCMBObject+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7A83C8CE559B6E2B98982F9CDEBFE37 /* NSDataBase64Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D747B7553BA37994F92AE9AB9552BB /* NSDataBase64Encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C842192535C04DA6D7DF6727A28CD8E0 /* NYXImagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D057F4B7F77D69464446680C8509B688 /* NYXImagesHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C92664957E8F0ED3AFDA9D0D4DD90A54 /* NCMBQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D85044F838A41915B4758730DCE65ED8 /* NCMBQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB75F88A47FA9427D0D5706207139EBA /* UIScrollView+Screenshot.h in Headers */ = {isa = PBXBuildFile; fileRef = AF5DD1C8E277E335B8B493370477D2C6 /* UIScrollView+Screenshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC0F8ABDE5CEF59353BDA5F2CCEF643D /* Pods-Login-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B98C8A7C12273D601C64D60DB58CA9BC /* Pods-Login-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD699CF832630087D53FE95B0A008F50 /* NCMB_umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 498BD6EF625FCC2FA35FDA667EF9E05F /* NCMB_umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C453C4928B8E081219CBD3EE599FB69C /* NCMBACL.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C699C96F3998336AF4E9CFC59924B9 /* NCMBACL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4938C3C815A294DF29C16D86401AE67 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C724BDE9A8CBDC7EB961F7C6008B83 /* SVIndefiniteAnimatedView.m */; };
+		C52A5E9C748B47281004D3E16F733423 /* NCMBObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 90E9BDF58D41747D08082888D5279560 /* NCMBObject+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6379578A03E89CBCBB503F2F52D8EC3 /* Pods-Login-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B98C8A7C12273D601C64D60DB58CA9BC /* Pods-Login-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7A83C8CE559B6E2B98982F9CDEBFE37 /* NSDataBase64Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = C43EDC066F2D1D37EEC94BDD4A99A11B /* NSDataBase64Encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C842192535C04DA6D7DF6727A28CD8E0 /* NYXImagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F248BAEA087CA797CC4C1DDD5AF539A7 /* NYXImagesHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C92664957E8F0ED3AFDA9D0D4DD90A54 /* NCMBQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE287F5BDE2E6436B6FDBF2C2BF3DA2 /* NCMBQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB75F88A47FA9427D0D5706207139EBA /* UIScrollView+Screenshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D9476F6E79E1F4B7919F5B4223AE86 /* UIScrollView+Screenshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBB1AFE3C0A181A61FE0BC53104C5DDB /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A255A287E176EBD4553AB4C446A99F /* SVProgressHUD.m */; };
+		CD699CF832630087D53FE95B0A008F50 /* NCMB_umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE30953EFB738D091A07F455A1EE36CA /* NCMB_umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF2B575C7C2A210DEC46DC89A042C514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF48A2169B13BB433B6EB654058C90E /* Foundation.framework */; };
-		D0609F2120D365FC72A2DAEE0954B375 /* NYXProgressiveImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C743E6C1564DD1309CB31B3C9DCB1046 /* NYXProgressiveImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D3EAD8AC0C2CC25911CD18F335DDB8F2 /* NCMBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = E45C9A7275B939DB59061CBCA2DDF8D1 /* NCMBAnalytics.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D69DA357C48707F7ED26EB0E11B81650 /* NCMBDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A72A02AFF296BBF617D2FAA4CD4986 /* NCMBDateFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D6E3A4D2FF6B7C67A5A4CFA59263CD8B /* NCMBReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D4FBD90AB151DAA6FEB79106605917C /* NCMBReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC514375316947A507A70E1297DA92B9 /* NCMBError.m in Sources */ = {isa = PBXBuildFile; fileRef = 63048B7CB6740FDF1E36E6C3EEFD9144 /* NCMBError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DEC9106418D77693E1B1C1FD27AD1242 /* NCMBGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE40651AA7325E92148EBCAE45AB831 /* NCMBGeoPoint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E21699FA7032F1993CCEFD3193990B15 /* NCMBURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4787CE4946B9A65B61AFCB78232B /* NCMBURLSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E414B95B7F5A4D1CFE8C856FDDFF2330 /* UIImage+Reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC55C129DDE8D26D0BFC003E4F99783 /* UIImage+Reflection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E460905A0CB4DDBDC001A0ECA0E3ADCC /* NCMBRole.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F98120BF82563826DC4B0E0E0D7BD6 /* NCMBRole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E4B099EE06DACA6E384AA3B4262D6CDB /* NCMBAnonymousUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE149A397066EB2D2515E1053E6C1EB /* NCMBAnonymousUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9CFF585CAF39C4CD466E531ABC4094E /* NCMBSetOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 004049779C94A951FCF8BCAEE67836B5 /* NCMBSetOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC0B6E2AF14DD33061F9BEAAE912CEBC /* NCMBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E0F79847F660F9ECE73B5FBC9FD157 /* NCMBUser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		ED3F6C97D63ECCBFB0A59AD49B577EC0 /* NCMBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCF81C28B942FFFF3355F078A4799B8 /* NCMBInstallation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F1CD651FD469D87692542C9D79E89353 /* NCMBIncrementOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F58E643A93E82CEFBE4EFCA7A824DD /* NCMBIncrementOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F2CA78819A3019E9158E6451F01A0CA6 /* NCMBGeoPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 433C6439E5098223E0C92346C256F0EE /* NCMBGeoPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0609F2120D365FC72A2DAEE0954B375 /* NYXProgressiveImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1A7953BF9D247E7E4596598C5FDF22 /* NYXProgressiveImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D3EAD8AC0C2CC25911CD18F335DDB8F2 /* NCMBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8304B70E730EF9B7B8FE7ECCF7601 /* NCMBAnalytics.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D69DA357C48707F7ED26EB0E11B81650 /* NCMBDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 955665950577A2AB431DE71C68B7E3FD /* NCMBDateFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D6E3A4D2FF6B7C67A5A4CFA59263CD8B /* NCMBReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = A875F62AF562BDDEDD953903018C5BDA /* NCMBReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC514375316947A507A70E1297DA92B9 /* NCMBError.m in Sources */ = {isa = PBXBuildFile; fileRef = F19C8661FB7DA3FB1427BA53C905ECB4 /* NCMBError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DD4F90E05BB75ECF3FD7C5499B8AE4CB /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B6F433F483FBAF900CC25E606B68CA /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC9106418D77693E1B1C1FD27AD1242 /* NCMBGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C537A5C1C5D178EB2DA9D601116D17F5 /* NCMBGeoPoint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E21699FA7032F1993CCEFD3193990B15 /* NCMBURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6ECE1A66FD611BAB548F010EDD0317 /* NCMBURLSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E414B95B7F5A4D1CFE8C856FDDFF2330 /* UIImage+Reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = BD84F5A423B9B8E86418050912F155AC /* UIImage+Reflection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E460905A0CB4DDBDC001A0ECA0E3ADCC /* NCMBRole.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EA21BEC2CADF2ED30FC259AC81D005 /* NCMBRole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E4B099EE06DACA6E384AA3B4262D6CDB /* NCMBAnonymousUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB80E807D948E26C3FBFF2BDD0CB860 /* NCMBAnonymousUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5BC38A5D0041ADF25B50C18F3D48CCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A582A77A52CE4A155D0AD4EE92FF7962 /* UIKit.framework */; };
+		E9CFF585CAF39C4CD466E531ABC4094E /* NCMBSetOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF7E66142505E1A098ED577706D762A /* NCMBSetOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC0B6E2AF14DD33061F9BEAAE912CEBC /* NCMBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB74AF0ACA68B652F206594827CE2D9 /* NCMBUser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ED3F6C97D63ECCBFB0A59AD49B577EC0 /* NCMBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E81837BB1DBAD13DB8958255E0214DB /* NCMBInstallation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F1CD651FD469D87692542C9D79E89353 /* NCMBIncrementOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A063B218E5F172C20354B43D020243 /* NCMBIncrementOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F1EFE6572BCFFCEA1654BF73C18FD6C1 /* Pods-Login-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A115F63E29DC42400FE1278B2C51CE /* Pods-Login-dummy.m */; };
+		F2CA78819A3019E9158E6451F01A0CA6 /* NCMBGeoPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A09AE432EBB466FD11F5B4DB657C68 /* NCMBGeoPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4AA81A51B1D35B4CAC97BE6B31E7B69 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3500C35789C5AE7DAC0B264599EBCDE1 /* MobileCoreServices.framework */; };
-		F8CE9281F1BFA9238B810166C31AD5D9 /* NCMBAddOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C3B18D247FC086F228BD48C1E74320C1 /* NCMBAddOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8DA0660CF06A3AF81489AD26C7E72AA /* NCMBRelation+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A30990D85D1F3848549C933FB6C9C4C /* NCMBRelation+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9B79CE297BBF47B61CAEA6053D6C6C4 /* NCMBScriptService.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D03F0693A26146ABC53627F2438B21 /* NCMBScriptService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD0962CD4D1EB53D495B0A1D8100D248 /* UIImage+Masking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B712AF381CE8539262769D6C6321B5D /* UIImage+Masking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FD889EC785EB154519CBD8ED3D4549CF /* NCMBRelationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE58EC4F2FFC888D0175FFF29642B89A /* NCMBRelationOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FF7E90F1769E54C67BA49F3991A09455 /* NCMBCloseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA16483921633091A9CBC733EBBBFCD /* NCMBCloseImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F8CE9281F1BFA9238B810166C31AD5D9 /* NCMBAddOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCAD9CE89CBFF9DCC10FE175A601666 /* NCMBAddOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8DA0660CF06A3AF81489AD26C7E72AA /* NCMBRelation+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D302ED8F06AE7F847FD83235ED85A6 /* NCMBRelation+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9B79CE297BBF47B61CAEA6053D6C6C4 /* NCMBScriptService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA7E411F796E4B6498527FDAC24A3F4 /* NCMBScriptService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD0962CD4D1EB53D495B0A1D8100D248 /* UIImage+Masking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB554D582CAAE36FF061DAF3FD8389D /* UIImage+Masking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FD889EC785EB154519CBD8ED3D4549CF /* NCMBRelationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C24983E0531C4AF4DC1E048C1B5142 /* NCMBRelationOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FF7E90F1769E54C67BA49F3991A09455 /* NCMBCloseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3205A92DCA4333ED8825D03A19C4E4 /* NCMBCloseImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0B9A754A46F62DE5F3BFB66047205E19 /* PBXContainerItemProxy */ = {
+		6C8EA20E10A5B8062E9B7D31B78DC7A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31888E93A54C340DC33571C41F8C4860;
+			remoteInfo = SVProgressHUD;
+		};
+		77BD94248A93353737B90111213B7731 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EED3A1F7C81F78926470A8D26A61FC8C;
 			remoteInfo = NCMB;
 		};
-		EC28B4D01940C1348D5562453F238A06 /* PBXContainerItemProxy */ = {
+		BC198C7FDB4FC2D5B97376AE1C2CF9EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6323EDD2529AAD7C77660E42F037D96;
+			remoteInfo = "UITextView+Placeholder";
+		};
+		C1AC944D397C19150D4D16FDE8070110 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -141,137 +174,162 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004049779C94A951FCF8BCAEE67836B5 /* NCMBSetOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSetOperation.h; path = NCMB/Operations/NCMBSetOperation.h; sourceTree = "<group>"; };
+		000F65040392D161C976F51F4460AE8E /* UITextView+Placeholder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder-umbrella.h"; sourceTree = "<group>"; };
 		007E3CD52E56B46DF23EFE6F0194F8DE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		01B6F433F483FBAF900CC25E606B68CA /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		0211C3045C2382DB2BC1330AAAAEFA31 /* NCMBScriptService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScriptService.m; path = NCMB/NCMBScriptService/NCMBScriptService.m; sourceTree = "<group>"; };
+		025778308657BC3ABDAC17D85736BC52 /* UIImage+Enhancing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Enhancing.h"; path = "Categories/UIImage+Enhancing.h"; sourceTree = "<group>"; };
 		02B0958742C514C2AF54DE9552B32B47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03456F61A4B727CEB4BF5A25B4D119FA /* UIView+Screenshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Screenshot.h"; path = "Categories/UIView+Screenshot.h"; sourceTree = "<group>"; };
+		03F5BC27B08E1FEA2F286EFEAE7F9391 /* SubClassHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubClassHandler.h; path = NCMB/SubClassHandler/SubClassHandler.h; sourceTree = "<group>"; };
+		04231924DF1864ADA4A0863CF174B9C7 /* UITextView+Placeholder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder-dummy.m"; sourceTree = "<group>"; };
 		04496EB382A5E15CA2966ABA291620F8 /* Pods-Login-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Login-resources.sh"; sourceTree = "<group>"; };
-		06ACD51E040E070EEF98B063DB67E807 /* NSDataBase64Encode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSDataBase64Encode.m; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.m; sourceTree = "<group>"; };
-		08E0F79847F660F9ECE73B5FBC9FD157 /* NCMBUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBUser.m; path = NCMB/NCMBUser.m; sourceTree = "<group>"; };
-		08F58E643A93E82CEFBE4EFCA7A824DD /* NCMBIncrementOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBIncrementOperation.m; path = NCMB/Operations/NCMBIncrementOperation.m; sourceTree = "<group>"; };
-		09BB014FC82CD5CD94FA976233BDF324 /* NCMBConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBConstants.h; path = NCMB/NCMBConstants.h; sourceTree = "<group>"; };
-		09BE3CC0A8D823268A567736D409A174 /* NCMBURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBURLSession.h; path = NCMB/NCMBURLSession/NCMBURLSession.h; sourceTree = "<group>"; };
-		0D4FBD90AB151DAA6FEB79106605917C /* NCMBReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBReachability.h; path = NCMB/NCMBReachability/NCMBReachability.h; sourceTree = "<group>"; };
-		13D2CB81F4FCC6D17B22D9A5D22058B8 /* NCMBRemoveOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRemoveOperation.h; path = NCMB/Operations/NCMBRemoveOperation.h; sourceTree = "<group>"; };
-		1761C7C0E9D45D60B8182144E276A055 /* NYXImagesKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NYXImagesKit-dummy.m"; sourceTree = "<group>"; };
+		06A255A287E176EBD4553AB4C446A99F /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		08D302ED8F06AE7F847FD83235ED85A6 /* NCMBRelation+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBRelation+Private.h"; path = "NCMB/PrivateHeaders/NCMBRelation+Private.h"; sourceTree = "<group>"; };
+		0914488859B8CB1597311DA8E3835926 /* UIImage+Saving.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Saving.m"; path = "Categories/UIImage+Saving.m"; sourceTree = "<group>"; };
+		0AA8304B70E730EF9B7B8FE7ECCF7601 /* NCMBAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnalytics.m; path = NCMB/NCMBAnalytics.m; sourceTree = "<group>"; };
+		0CC4C11465FEBF648C1AC7C548847B09 /* NCMBDeleteOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDeleteOperation.h; path = NCMB/Operations/NCMBDeleteOperation.h; sourceTree = "<group>"; };
+		0E48F65A6B253DDA083A64A05536A675 /* NYXImagesHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYXImagesHelper.h; path = Helper/NYXImagesHelper.h; sourceTree = "<group>"; };
+		0E939887C071C89FD1968B7B450E6832 /* UIImage+Resizing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resizing.h"; path = "Categories/UIImage+Resizing.h"; sourceTree = "<group>"; };
+		0FE287F5BDE2E6436B6FDBF2C2BF3DA2 /* NCMBQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBQuery+Private.h"; path = "NCMB/PrivateHeaders/NCMBQuery+Private.h"; sourceTree = "<group>"; };
+		129F4675079B422D8229E3F15F7FB5B2 /* NCMBRelation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelation.m; path = NCMB/NCMBRelation.m; sourceTree = "<group>"; };
 		184FFB257733642F89AC30FBD551478D /* Pods-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login.debug.xcconfig"; sourceTree = "<group>"; };
-		18CBF658A6BA3F239ADA1DB1CC39C001 /* UIImage+Resizing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resizing.h"; path = "Categories/UIImage+Resizing.h"; sourceTree = "<group>"; };
-		192A99274E3E884BC10751D3CF8984C3 /* NCMB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NCMB.framework; path = NCMB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AAFA74099E11ACE02E21304154BB10B /* NCMBRemoveOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRemoveOperation.m; path = NCMB/Operations/NCMBRemoveOperation.m; sourceTree = "<group>"; };
-		202823DC53C88E6525D1F74E64121414 /* NYXImagesKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYXImagesKit-umbrella.h"; sourceTree = "<group>"; };
-		2197CCB9443A9836FA12C9E2E093E01A /* NCMBAddUniqueOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddUniqueOperation.m; path = NCMB/Operations/NCMBAddUniqueOperation.m; sourceTree = "<group>"; };
+		19619EF306E0C7DA550716290DA1F89A /* NCMBURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBURLSession.h; path = NCMB/NCMBURLSession/NCMBURLSession.h; sourceTree = "<group>"; };
+		1C1DB857E48C7E782B26F66A53E98543 /* NCMBError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBError.h; path = NCMB/NCMBError.h; sourceTree = "<group>"; };
+		1D3E430E70CE13671B51092742D890E6 /* UIImage+Blurring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Blurring.h"; path = "Categories/UIImage+Blurring.h"; sourceTree = "<group>"; };
+		1DF7E66142505E1A098ED577706D762A /* NCMBSetOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSetOperation.h; path = NCMB/Operations/NCMBSetOperation.h; sourceTree = "<group>"; };
+		24DAC7F215E18D1BE6C920D6282C079C /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		26DBE87F1AEA6F0B9B5AB34C46CCE676 /* Pods-Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login.release.xcconfig"; sourceTree = "<group>"; };
-		28F4C0F27D29B687DE35125EAB402B3E /* NCMBObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Subclass.h"; path = "NCMB/NCMBObject+Subclass.h"; sourceTree = "<group>"; };
-		293CAA047D8E6A754CE156AF7D6F6B94 /* UIImage+Resizing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Resizing.m"; path = "Categories/UIImage+Resizing.m"; sourceTree = "<group>"; };
-		2A1A6A8A25852223F4A1FBBFE7365749 /* NCMBRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelation.h; path = NCMB/NCMBRelation.h; sourceTree = "<group>"; };
+		285FB1EC0224BF4D7D99D1EAB2C1D0EE /* NCMBAddUniqueOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddUniqueOperation.h; path = NCMB/Operations/NCMBAddUniqueOperation.h; sourceTree = "<group>"; };
+		28BB2831A77BB245F9A0E3CB4248D1B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A25653BC490D55C2A231E3A00D4AB75 /* NSDataBase64Encode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSDataBase64Encode.m; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.m; sourceTree = "<group>"; };
 		2C991ADA8CCEEC4B4EF5C40884EBC230 /* Pods-Login.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Login.modulemap"; sourceTree = "<group>"; };
-		2DA16483921633091A9CBC733EBBBFCD /* NCMBCloseImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBCloseImageView.m; path = NCMB/NCMBRichPush/NCMBCloseImageView.m; sourceTree = "<group>"; };
-		2DCBDA6B7A853F61A4311770FD5E30C8 /* NCMBObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBObject.h; path = NCMB/NCMBObject.h; sourceTree = "<group>"; };
+		2EEC5EE2B82A17F8E6217844EC0FB5E1 /* NCMBInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBInstallation.h; path = NCMB/NCMBInstallation.h; sourceTree = "<group>"; };
+		2FF210E7CC14F9092B564CA354860263 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3174D9CE50857631AF157812A2C43980 /* UIScrollView+Screenshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+Screenshot.m"; path = "Categories/UIScrollView+Screenshot.m"; sourceTree = "<group>"; };
+		3383610F24F9B97D3F4057C10F59232A /* NCMBRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRequest.m; path = NCMB/NCMBRequest/NCMBRequest.m; sourceTree = "<group>"; };
 		3500C35789C5AE7DAC0B264599EBCDE1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		36F1D48501365904C658118B828B530D /* NCMBACL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBACL.m; path = NCMB/NCMBACL.m; sourceTree = "<group>"; };
-		38C0B42D956DD662417CB2134419A751 /* UIScrollView+Screenshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+Screenshot.m"; path = "Categories/UIScrollView+Screenshot.m"; sourceTree = "<group>"; };
-		3A31501425FC3BEFA8F47E7226A30221 /* NCMBDeleteOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDeleteOperation.m; path = NCMB/Operations/NCMBDeleteOperation.m; sourceTree = "<group>"; };
-		3B68F16249309D47C101FE053A7F1444 /* NCMBFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBFile.m; path = NCMB/NCMBFile.m; sourceTree = "<group>"; };
-		3DE149A397066EB2D2515E1053E6C1EB /* NCMBAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnonymousUtils.h; path = NCMB/NCMBAnonymousUtils.h; sourceTree = "<group>"; };
-		433C6439E5098223E0C92346C256F0EE /* NCMBGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBGeoPoint.h; path = NCMB/NCMBGeoPoint.h; sourceTree = "<group>"; };
-		465DB9E3E31F18DA29F12E197D4536F8 /* NCMBQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBQuery.h; path = NCMB/NCMBQuery.h; sourceTree = "<group>"; };
-		46B0267D56B344601EB0EDF12A175B4B /* NCMBDeleteOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDeleteOperation.h; path = NCMB/Operations/NCMBDeleteOperation.h; sourceTree = "<group>"; };
-		498BD6EF625FCC2FA35FDA667EF9E05F /* NCMB_umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB_umbrella.h; path = NCMB/NCMB_umbrella.h; sourceTree = "<group>"; };
-		4A30990D85D1F3848549C933FB6C9C4C /* NCMBRelation+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBRelation+Private.h"; path = "NCMB/PrivateHeaders/NCMBRelation+Private.h"; sourceTree = "<group>"; };
-		4DA76B0FB8EC45FBE901CE78B6F8DC8B /* NCMBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnalytics.h; path = NCMB/NCMBAnalytics.h; sourceTree = "<group>"; };
-		4E20EED6C2A77B65FF4339DFC1EB9C94 /* NCMBInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBInstallation.h; path = NCMB/NCMBInstallation.h; sourceTree = "<group>"; };
-		50F876DD0A398D1DCEF8C364C1BC8306 /* NCMB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCMB.xcconfig; sourceTree = "<group>"; };
-		512EB130C4B4BDEB9CD685431B3900D8 /* NCMB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-prefix.pch"; sourceTree = "<group>"; };
-		54620B7342DA06A5D840CF1B64A818A4 /* NYXImagesKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NYXImagesKit.framework; path = NYXImagesKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58EB136E3F6D04533360176A62D05A6A /* NCMB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB.h; path = NCMB/NCMB.h; sourceTree = "<group>"; };
-		5F3A827DB9B1CFCD7D565727562CE48E /* NCMBFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBFile.h; path = NCMB/NCMBFile.h; sourceTree = "<group>"; };
-		62D03F0693A26146ABC53627F2438B21 /* NCMBScriptService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScriptService.h; path = NCMB/NCMBScriptService/NCMBScriptService.h; sourceTree = "<group>"; };
-		63048B7CB6740FDF1E36E6C3EEFD9144 /* NCMBError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBError.m; path = NCMB/NCMBError.m; sourceTree = "<group>"; };
-		63F5628415BF95D9B12158A123F6FCF1 /* NCMBObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBObject.m; path = NCMB/NCMBObject.m; sourceTree = "<group>"; };
-		65C5A1447CD73B433E0F7F299DD0E83D /* NCMBSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSubclassing.h; path = NCMB/NCMBSubclassing.h; sourceTree = "<group>"; };
-		68F23C1EC1343AA60DCDE542B370FF20 /* NCMBObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Private.h"; path = "NCMB/PrivateHeaders/NCMBObject+Private.h"; sourceTree = "<group>"; };
-		6BF70602D0DD453CC79F69468E474B1A /* UIImage+Saving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Saving.h"; path = "Categories/UIImage+Saving.h"; sourceTree = "<group>"; };
-		6DCCF59062960BBBCE43B19FD9A8AE39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71D7C09485EF9364983EA3EAAC175C23 /* NCMBACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBACL.h; path = NCMB/NCMBACL.h; sourceTree = "<group>"; };
-		74CB763CEB9868E3F86ED7C42A9CAD8A /* NCMBScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScript.h; path = NCMB/NCMBScript.h; sourceTree = "<group>"; };
-		75B638C44B11EF210058BCF7EDEC13CD /* NCMBRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRequest.h; path = NCMB/NCMBRequest/NCMBRequest.h; sourceTree = "<group>"; };
+		393E21D2194962F6A45AF3AB630EA03E /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		3BCAD9CE89CBFF9DCC10FE175A601666 /* NCMBAddOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddOperation.h; path = NCMB/Operations/NCMBAddOperation.h; sourceTree = "<group>"; };
+		3D869F0C53606F10639C121EDAC2C060 /* NCMBRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRole.h; path = NCMB/NCMBRole.h; sourceTree = "<group>"; };
+		3E81837BB1DBAD13DB8958255E0214DB /* NCMBInstallation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBInstallation.m; path = NCMB/NCMBInstallation.m; sourceTree = "<group>"; };
+		3F0DF62A08E34E2ED558AE977516ABC4 /* SubClassHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SubClassHandler.m; path = NCMB/SubClassHandler/SubClassHandler.m; sourceTree = "<group>"; };
+		407D496CF64BCFA2464A5C381589B782 /* UIImage+Resizing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Resizing.m"; path = "Categories/UIImage+Resizing.m"; sourceTree = "<group>"; };
+		41329061FD76B92FFDCDBC761A87B27A /* NCMB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-prefix.pch"; sourceTree = "<group>"; };
+		41A1C7D7F48E068AB187D0B226561D40 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "Sources/UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		435592B8463BE5B10B520B8004E94DBE /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		455C208818F1C59DBA36B2BB3C13807E /* UIImage+Masking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Masking.h"; path = "Categories/UIImage+Masking.h"; sourceTree = "<group>"; };
+		4701638C0DE0805B1FDE142B835DB7F6 /* NCMBRelationOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelationOperation.h; path = NCMB/Operations/NCMBRelationOperation.h; sourceTree = "<group>"; };
+		48A199A684692AFE37C13ECADEE1EE26 /* NCMBUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBUser.h; path = NCMB/NCMBUser.h; sourceTree = "<group>"; };
+		4CF65DE671049B8111E64CB4FE0F481D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		4EB554D582CAAE36FF061DAF3FD8389D /* UIImage+Masking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Masking.m"; path = "Categories/UIImage+Masking.m"; sourceTree = "<group>"; };
+		506CF81D96221EEE1D617EC8578186C9 /* NCMBUser+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBUser+Private.h"; path = "NCMB/PrivateHeaders/NCMBUser+Private.h"; sourceTree = "<group>"; };
+		50F55874B4A42DFA54829DB7FDE2EFFF /* NCMB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NCMB.modulemap; sourceTree = "<group>"; };
+		54F848E693BA13C781690070E0409567 /* NCMB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB.h; path = NCMB/NCMB.h; sourceTree = "<group>"; };
+		563908AE2AB5AE5BDE97B9218E68DF0A /* NCMBFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBFile.h; path = NCMB/NCMBFile.h; sourceTree = "<group>"; };
+		594534938915EBA0ADC07174772FACCA /* NYXImagesKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYXImagesKit-prefix.pch"; sourceTree = "<group>"; };
+		5E7C97743C0969F8AACBFCCD766756C8 /* NCMB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NCMB-dummy.m"; sourceTree = "<group>"; };
+		5EB09D6325FABDB87E9FEFC6C187B1D4 /* NYXImagesKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYXImagesKit-umbrella.h"; sourceTree = "<group>"; };
+		61D2916330752AE12EDFFF628C04FB3A /* NYXImagesKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NYXImagesKit-dummy.m"; sourceTree = "<group>"; };
+		63A09AE432EBB466FD11F5B4DB657C68 /* NCMBGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBGeoPoint.h; path = NCMB/NCMBGeoPoint.h; sourceTree = "<group>"; };
+		6FA7E411F796E4B6498527FDAC24A3F4 /* NCMBScriptService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScriptService.h; path = NCMB/NCMBScriptService/NCMBScriptService.h; sourceTree = "<group>"; };
+		71057DFF75062E8FBC52E3B888D80E74 /* NCMB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCMB.xcconfig; sourceTree = "<group>"; };
+		71DF919A5E172C1601C4BE97649C86EF /* UIImage+Blurring.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Blurring.m"; path = "Categories/UIImage+Blurring.m"; sourceTree = "<group>"; };
+		729A026A674B700256763B35ED6491EA /* NCMBPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBPush.h; path = NCMB/NCMBPush.h; sourceTree = "<group>"; };
+		74C699C96F3998336AF4E9CFC59924B9 /* NCMBACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBACL.h; path = NCMB/NCMBACL.h; sourceTree = "<group>"; };
+		7775E6E796F80F892D7ECB0699FD3FE4 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "Sources/UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		77D9476F6E79E1F4B7919F5B4223AE86 /* UIScrollView+Screenshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+Screenshot.h"; path = "Categories/UIScrollView+Screenshot.h"; sourceTree = "<group>"; };
+		7A1A7953BF9D247E7E4596598C5FDF22 /* NYXProgressiveImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYXProgressiveImageView.m; path = Classes/NYXProgressiveImageView.m; sourceTree = "<group>"; };
+		7A3205A92DCA4333ED8825D03A19C4E4 /* NCMBCloseImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBCloseImageView.m; path = NCMB/NCMBRichPush/NCMBCloseImageView.m; sourceTree = "<group>"; };
+		7A7B262C9DF3DE930A8F1B26FB0A46D0 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		7AF48A2169B13BB433B6EB654058C90E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7DF505222DFCFE9402EE9290AEEA7541 /* NCMBUser+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBUser+Private.h"; path = "NCMB/PrivateHeaders/NCMBUser+Private.h"; sourceTree = "<group>"; };
-		82B68326C6F7D426AF8F0976F7B833BB /* NCMBAddOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddOperation.m; path = NCMB/Operations/NCMBAddOperation.m; sourceTree = "<group>"; };
-		85513354EB1D9CC05B3D19A1E84BDBA6 /* NCMBError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBError.h; path = NCMB/NCMBError.h; sourceTree = "<group>"; };
-		884F2670A453ED3A8CE2AEE620435FE5 /* NCMB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-umbrella.h"; sourceTree = "<group>"; };
-		8A291CC691FF0B2760B37930AF20BDE7 /* NYXImagesKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NYXImagesKit.xcconfig; sourceTree = "<group>"; };
-		8A61FDE0AA2D79F7C5926201D964E799 /* NYXImagesKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NYXImagesKit.modulemap; sourceTree = "<group>"; };
-		8B98EB5BC60B36AFAFE6B94640A4362E /* UIImage+Saving.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Saving.m"; path = "Categories/UIImage+Saving.m"; sourceTree = "<group>"; };
-		8C3178A992B0CB5DC25AE46E96090D8D /* SubClassHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubClassHandler.h; path = NCMB/SubClassHandler/SubClassHandler.h; sourceTree = "<group>"; };
-		90C57F0E1464344025661FA2848DB920 /* NCMBPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBPush.m; path = NCMB/NCMBPush.m; sourceTree = "<group>"; };
-		9376FEF2907BEB4164197BF321D3DC0D /* NCMBRelation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelation.m; path = NCMB/NCMBRelation.m; sourceTree = "<group>"; };
+		7D44355B2BF6F8E0C8F1C1E725702D4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FCF605F754A90CBE1A3E4C0C8BCB8B3 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		81D85324CAD3C6F0130188E89C7A76AB /* NCMBRemoveOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRemoveOperation.m; path = NCMB/Operations/NCMBRemoveOperation.m; sourceTree = "<group>"; };
+		82E6F94A42430916CE3C1B0ABB6A7110 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		84A6CE337345EEBA045D553DEC95E0A0 /* UIImage+Enhancing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Enhancing.m"; path = "Categories/UIImage+Enhancing.m"; sourceTree = "<group>"; };
+		883CDE82A87E0C8D7E3196D0BCEEF091 /* NYXImagesKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NYXImagesKit.modulemap; sourceTree = "<group>"; };
+		890AB2C73BFAFAC43F57616B5A1CA13E /* NCMBAnonymousUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnonymousUtils.m; path = NCMB/NCMBAnonymousUtils.m; sourceTree = "<group>"; };
+		8940DCAAB8401F91D7CFAB95B6960166 /* UIImage+Rotating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Rotating.h"; path = "Categories/UIImage+Rotating.h"; sourceTree = "<group>"; };
+		8B80A02A4CFC590140437857AC5968ED /* NCMBScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScript.h; path = NCMB/NCMBScript.h; sourceTree = "<group>"; };
+		8C079E86EDE347A606B2CA1C7CBAB12E /* UIView+Screenshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Screenshot.h"; path = "Categories/UIView+Screenshot.h"; sourceTree = "<group>"; };
+		8DB80E807D948E26C3FBFF2BDD0CB860 /* NCMBAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnonymousUtils.h; path = NCMB/NCMBAnonymousUtils.h; sourceTree = "<group>"; };
+		9074975F5BE46CBC648BCBFBA05D9B36 /* NCMBQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBQuery.h; path = NCMB/NCMBQuery.h; sourceTree = "<group>"; };
+		90E9BDF58D41747D08082888D5279560 /* NCMBObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Private.h"; path = "NCMB/PrivateHeaders/NCMBObject+Private.h"; sourceTree = "<group>"; };
+		91D8213A9C47FDA9CAF250A93B26080F /* NCMBQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBQuery.m; path = NCMB/NCMBQuery.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94153B117F69DA9A6310290597C2CF83 /* Pods-Login-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Login-acknowledgements.plist"; sourceTree = "<group>"; };
-		97A72A02AFF296BBF617D2FAA4CD4986 /* NCMBDateFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDateFormat.m; path = NCMB/NCMBDateFormat.m; sourceTree = "<group>"; };
+		955665950577A2AB431DE71C68B7E3FD /* NCMBDateFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDateFormat.m; path = NCMB/NCMBDateFormat.m; sourceTree = "<group>"; };
+		9559F7684C2918BEE1A6EFF05C1CF5F4 /* UIImage+Saving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Saving.h"; path = "Categories/UIImage+Saving.h"; sourceTree = "<group>"; };
+		962DFECF0C544A61A385662D74EB0541 /* NCMBRichPushView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRichPushView.m; path = NCMB/NCMBRichPush/NCMBRichPushView.m; sourceTree = "<group>"; };
+		9787C91678C44B26C0D8243AB4C4EB94 /* NCMBRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRequest.h; path = NCMB/NCMBRequest/NCMBRequest.h; sourceTree = "<group>"; };
 		99A115F63E29DC42400FE1278B2C51CE /* Pods-Login-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Login-dummy.m"; sourceTree = "<group>"; };
-		9A441C44927380A599D3952D82089418 /* UIImage+Enhancing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Enhancing.m"; path = "Categories/UIImage+Enhancing.m"; sourceTree = "<group>"; };
-		9AC1DAACC7088D61A842FF77C4C959E1 /* NCMBScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScript.m; path = NCMB/NCMBScript.m; sourceTree = "<group>"; };
-		9B712AF381CE8539262769D6C6321B5D /* UIImage+Masking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Masking.m"; path = "Categories/UIImage+Masking.m"; sourceTree = "<group>"; };
-		9DA7E343813E981F5E70F5C367BA350D /* NYXImagesKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYXImagesKit-prefix.pch"; sourceTree = "<group>"; };
-		9F12D92A97D3CB66A986FC4FA22EFF30 /* NCMBAnonymousUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnonymousUtils.m; path = NCMB/NCMBAnonymousUtils.m; sourceTree = "<group>"; };
-		A00BFAF58440F03B53831304D099A2C5 /* NCMB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NCMB-dummy.m"; sourceTree = "<group>"; };
-		A1CE147A766EF11167321A5DCD9FD54A /* UIImage+Reflection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Reflection.m"; path = "Categories/UIImage+Reflection.m"; sourceTree = "<group>"; };
-		A3220D569FFED28267251460C98FC374 /* UIImage+Enhancing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Enhancing.h"; path = "Categories/UIImage+Enhancing.h"; sourceTree = "<group>"; };
-		A45A354E975889D8AE31AE4FC7C8D85C /* NCMBQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBQuery.m; path = NCMB/NCMBQuery.m; sourceTree = "<group>"; };
-		A50ED225FB5454EAE667038C7EBCDD25 /* NYXProgressiveImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYXProgressiveImageView.h; path = Classes/NYXProgressiveImageView.h; sourceTree = "<group>"; };
+		9B15E77288FB8519B011094E0CCE6455 /* NCMBReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBReachability.m; path = NCMB/NCMBReachability/NCMBReachability.m; sourceTree = "<group>"; };
+		9B3C79446F1CE4FD1C60F50696CA5CDD /* NYXImagesKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NYXImagesKit.xcconfig; sourceTree = "<group>"; };
+		9B5CD5B76875392B05C43B1CAAF2B94D /* Pods_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Login.framework; path = "Pods-Login.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B71BFF841D8A32A06069D1DB24997AB /* NCMBObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Subclass.h"; path = "NCMB/NCMBObject+Subclass.h"; sourceTree = "<group>"; };
+		9BCE239C9F79223898616AB14E34D30A /* UITextView+Placeholder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder-prefix.pch"; sourceTree = "<group>"; };
+		9D33F4AB49E677A886A3E97CD0DDEE28 /* NCMBPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBPush.m; path = NCMB/NCMBPush.m; sourceTree = "<group>"; };
+		9E82993B05234F408C24D6D10B768103 /* NCMBRichPushView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRichPushView.h; path = NCMB/NCMBRichPush/NCMBRichPushView.h; sourceTree = "<group>"; };
+		9F8067A6CA881B1D4BF3A634473D0C1B /* NCMBDeleteOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDeleteOperation.m; path = NCMB/Operations/NCMBDeleteOperation.m; sourceTree = "<group>"; };
+		9FEA72551EA0FBFC614713476EE22AA4 /* NCMBRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelation.h; path = NCMB/NCMBRelation.h; sourceTree = "<group>"; };
+		A0C24983E0531C4AF4DC1E048C1B5142 /* NCMBRelationOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelationOperation.m; path = NCMB/Operations/NCMBRelationOperation.m; sourceTree = "<group>"; };
+		A2A063B218E5F172C20354B43D020243 /* NCMBIncrementOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBIncrementOperation.m; path = NCMB/Operations/NCMBIncrementOperation.m; sourceTree = "<group>"; };
 		A582A77A52CE4A155D0AD4EE92FF7962 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A5CD55119CAE42F4184F08F616B77F41 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A83ABD4CCCE6718866A2EE60878680E7 /* NYXImagesKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYXImagesKit.h; path = Helper/NYXImagesKit.h; sourceTree = "<group>"; };
-		AA4448D6FA39A09D8399A44B0D72CCB5 /* NCMBReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBReachability.m; path = NCMB/NCMBReachability/NCMBReachability.m; sourceTree = "<group>"; };
+		A875F62AF562BDDEDD953903018C5BDA /* NCMBReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBReachability.h; path = NCMB/NCMBReachability/NCMBReachability.h; sourceTree = "<group>"; };
+		AB0CFEEDCE28D33F101C91513F7922F7 /* NCMBSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSubclassing.h; path = NCMB/NCMBSubclassing.h; sourceTree = "<group>"; };
+		AB7735B9E7B6F8B6639AACAC3391D93F /* NCMBScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScript.m; path = NCMB/NCMBScript.m; sourceTree = "<group>"; };
 		AF4D1380004B600DD24AC023A1443BAF /* Pods-Login-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Login-frameworks.sh"; sourceTree = "<group>"; };
-		AF5DD1C8E277E335B8B493370477D2C6 /* UIScrollView+Screenshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+Screenshot.h"; path = "Categories/UIScrollView+Screenshot.h"; sourceTree = "<group>"; };
-		AF7BE3D5D09B76FBB4E799B2F972BA62 /* NCMBPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBPush.h; path = NCMB/NCMBPush.h; sourceTree = "<group>"; };
-		B10C757447272CCDE524693C4D7267EF /* UIImage+Blurring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Blurring.h"; path = "Categories/UIImage+Blurring.h"; sourceTree = "<group>"; };
 		B233D10A84452F310902282A71333774 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		B25D2D5960DF9200AFCAB8B60699B3E7 /* NYXImagesHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYXImagesHelper.h; path = Helper/NYXImagesHelper.h; sourceTree = "<group>"; };
-		B400DB1342C9F769EBB15D8C39B43501 /* NCMB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMB.m; path = NCMB/NCMB.m; sourceTree = "<group>"; };
-		B541FA9D5E167E327C54406414792D13 /* NCMBUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBUser.h; path = NCMB/NCMBUser.h; sourceTree = "<group>"; };
-		B7B93A4BFAA91F537C7E762FAE2D34E2 /* SubClassHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SubClassHandler.m; path = NCMB/SubClassHandler/SubClassHandler.m; sourceTree = "<group>"; };
+		B2FF8A74F599D760C2E8D2DAA42E69A8 /* NCMBObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBObject.h; path = NCMB/NCMBObject.h; sourceTree = "<group>"; };
+		B458F8DFB79AB7BE0C8B34A28E6CF501 /* NCMBAddOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddOperation.m; path = NCMB/Operations/NCMBAddOperation.m; sourceTree = "<group>"; };
+		B474B555DB9FE9867FA5C772BC14A7CC /* UITextView_Placeholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UITextView_Placeholder.framework; path = "UITextView+Placeholder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4EEC8F61076CB54C92285DDA9C698D7 /* UIImage+Rotating.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Rotating.m"; path = "Categories/UIImage+Rotating.m"; sourceTree = "<group>"; };
+		B6B7FE5D1BBAE67CCEE67CC7504E8780 /* NCMB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMB.m; path = NCMB/NCMB.m; sourceTree = "<group>"; };
 		B98C8A7C12273D601C64D60DB58CA9BC /* Pods-Login-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Login-umbrella.h"; sourceTree = "<group>"; };
-		BA687F1047F00224C6138A755940EAB7 /* NCMBIncrementOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBIncrementOperation.h; path = NCMB/Operations/NCMBIncrementOperation.h; sourceTree = "<group>"; };
-		BAC55C129DDE8D26D0BFC003E4F99783 /* UIImage+Reflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Reflection.h"; path = "Categories/UIImage+Reflection.h"; sourceTree = "<group>"; };
-		BBCF81C28B942FFFF3355F078A4799B8 /* NCMBInstallation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBInstallation.m; path = NCMB/NCMBInstallation.m; sourceTree = "<group>"; };
-		BD1B53DB4C527829C0FA8DAE8382FF72 /* NCMBRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRequest.m; path = NCMB/NCMBRequest/NCMBRequest.m; sourceTree = "<group>"; };
-		BE28EDF3A9F022B08522B38B90BAE891 /* UIView+Screenshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Screenshot.m"; path = "Categories/UIView+Screenshot.m"; sourceTree = "<group>"; };
-		BE58EC4F2FFC888D0175FFF29642B89A /* NCMBRelationOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelationOperation.m; path = NCMB/Operations/NCMBRelationOperation.m; sourceTree = "<group>"; };
-		BF17DF5BF154488CFCFD900B64EF1CF4 /* UIImage+Masking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Masking.h"; path = "Categories/UIImage+Masking.h"; sourceTree = "<group>"; };
-		C3B18D247FC086F228BD48C1E74320C1 /* NCMBAddOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddOperation.h; path = NCMB/Operations/NCMBAddOperation.h; sourceTree = "<group>"; };
+		BB88F66B3239E0DC481062BE4B9EF3FF /* NCMBConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBConstants.h; path = NCMB/NCMBConstants.h; sourceTree = "<group>"; };
+		BBA6E82B19FCF241FA0E4E13D5C7DD3E /* NCMBDateFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDateFormat.h; path = NCMB/NCMBDateFormat.h; sourceTree = "<group>"; };
+		BD84F5A423B9B8E86418050912F155AC /* UIImage+Reflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Reflection.h"; path = "Categories/UIImage+Reflection.h"; sourceTree = "<group>"; };
+		BE1F7032CEA123C93D9ACB01FC36939D /* UIImage+Reflection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Reflection.m"; path = "Categories/UIImage+Reflection.m"; sourceTree = "<group>"; };
+		BE30953EFB738D091A07F455A1EE36CA /* NCMB_umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB_umbrella.h; path = NCMB/NCMB_umbrella.h; sourceTree = "<group>"; };
+		BF9C5C952BF3A0F6804FF94FF35B55C7 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		C188EDE80B5330FCCDF49B29F5A88FB4 /* NCMBACL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBACL.m; path = NCMB/NCMBACL.m; sourceTree = "<group>"; };
+		C2496661E55D928FF1182061C0B0C087 /* NCMBSetOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBSetOperation.m; path = NCMB/Operations/NCMBSetOperation.m; sourceTree = "<group>"; };
+		C43EDC066F2D1D37EEC94BDD4A99A11B /* NSDataBase64Encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSDataBase64Encode.h; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.h; sourceTree = "<group>"; };
+		C537A5C1C5D178EB2DA9D601116D17F5 /* NCMBGeoPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBGeoPoint.m; path = NCMB/NCMBGeoPoint.m; sourceTree = "<group>"; };
 		C5B57F6AE103FDAFEC39C1BBD6B1A3DF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
 		C63CBB6BC482A5BAD3888FEE923C1F50 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
 		C6CF965692B9022962D59873C410B203 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		C743E6C1564DD1309CB31B3C9DCB1046 /* NYXProgressiveImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYXProgressiveImageView.m; path = Classes/NYXProgressiveImageView.m; sourceTree = "<group>"; };
-		C90CDD7BAFF054E2356203BBF4D16085 /* NCMBRichPushView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRichPushView.h; path = NCMB/NCMBRichPush/NCMBRichPushView.h; sourceTree = "<group>"; };
-		CB0285E64ECCB5690DAA281035E4B23B /* NCMBCloseImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBCloseImageView.h; path = NCMB/NCMBRichPush/NCMBCloseImageView.h; sourceTree = "<group>"; };
-		CEF1E5B66DCF7D16986BF1C04EAF0CBF /* NCMBAddUniqueOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddUniqueOperation.h; path = NCMB/Operations/NCMBAddUniqueOperation.h; sourceTree = "<group>"; };
-		D057F4B7F77D69464446680C8509B688 /* NYXImagesHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYXImagesHelper.m; path = Helper/NYXImagesHelper.m; sourceTree = "<group>"; };
-		D1B67BE5B0F261A55246F9B3DA01F803 /* UIImage+Filtering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Filtering.h"; path = "Categories/UIImage+Filtering.h"; sourceTree = "<group>"; };
-		D85044F838A41915B4758730DCE65ED8 /* NCMBQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBQuery+Private.h"; path = "NCMB/PrivateHeaders/NCMBQuery+Private.h"; sourceTree = "<group>"; };
-		D9D747B7553BA37994F92AE9AB9552BB /* NSDataBase64Encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSDataBase64Encode.h; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.h; sourceTree = "<group>"; };
-		DB2B4787CE4946B9A65B61AFCB78232B /* NCMBURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBURLSession.m; path = NCMB/NCMBURLSession/NCMBURLSession.m; sourceTree = "<group>"; };
-		DD0616907BE6BC37EBE65B933138DA62 /* UIImage+Rotating.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Rotating.m"; path = "Categories/UIImage+Rotating.m"; sourceTree = "<group>"; };
-		DE9C1AD95B744F1729F8E7A2B0CE5A4E /* NCMBDateFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDateFormat.h; path = NCMB/NCMBDateFormat.h; sourceTree = "<group>"; };
-		DF62374A4708CFFC5F00C4478BF629A4 /* NCMBRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRole.h; path = NCMB/NCMBRole.h; sourceTree = "<group>"; };
-		DFB69C1282AA1D16B5BB5826DF5EE9FD /* UIImage+Rotating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Rotating.h"; path = "Categories/UIImage+Rotating.h"; sourceTree = "<group>"; };
-		E32F34AC91F5B2B35DECEDA7A80B06E1 /* UIImage+Blurring.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Blurring.m"; path = "Categories/UIImage+Blurring.m"; sourceTree = "<group>"; };
-		E45C9A7275B939DB59061CBCA2DDF8D1 /* NCMBAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnalytics.m; path = NCMB/NCMBAnalytics.m; sourceTree = "<group>"; };
-		E5EFDE19D58E53835A0872338E533025 /* NCMBRichPushView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRichPushView.m; path = NCMB/NCMBRichPush/NCMBRichPushView.m; sourceTree = "<group>"; };
-		E73E72C613E3B1A0C1F004BB948899E6 /* NCMBRelationOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelationOperation.h; path = NCMB/Operations/NCMBRelationOperation.h; sourceTree = "<group>"; };
-		E8D5564EF35B54FFF21FC644626C3FB0 /* Pods_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Login.framework; path = "Pods-Login.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E94A656854C973850C04FFE1B2DFB709 /* NCMBSetOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBSetOperation.m; path = NCMB/Operations/NCMBSetOperation.m; sourceTree = "<group>"; };
-		E9CFB20EFF6038FD0E48897DB3B2DF54 /* UIImage+Filtering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Filtering.m"; path = "Categories/UIImage+Filtering.m"; sourceTree = "<group>"; };
+		C8C724BDE9A8CBDC7EB961F7C6008B83 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		CBB74AF0ACA68B652F206594827CE2D9 /* NCMBUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBUser.m; path = NCMB/NCMBUser.m; sourceTree = "<group>"; };
+		CFF738D02105C1A93BBFF907E69BBCEA /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		D3325277099DE38768775705F2E3A3AA /* NCMBCloseImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBCloseImageView.h; path = NCMB/NCMBRichPush/NCMBCloseImageView.h; sourceTree = "<group>"; };
+		D6B392C0DEFA3E3E24D74872F94FCB63 /* NCMB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-umbrella.h"; sourceTree = "<group>"; };
+		D7DBD07F16BE5189D07CAEE886FE46DB /* UITextView+Placeholder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UITextView+Placeholder.modulemap"; sourceTree = "<group>"; };
+		DB254AA7E5FFB217D8276D08A913AFEA /* UIImage+Filtering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Filtering.h"; path = "Categories/UIImage+Filtering.h"; sourceTree = "<group>"; };
+		DBBFE776F315A71177FDE16333D79760 /* NCMBRemoveOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRemoveOperation.h; path = NCMB/Operations/NCMBRemoveOperation.h; sourceTree = "<group>"; };
+		DCC9E350D1503C27232A0296A99321B2 /* NYXImagesKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYXImagesKit.h; path = Helper/NYXImagesKit.h; sourceTree = "<group>"; };
+		DD9685570CEBCE9687402A645EB80282 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E390F1E6E6722E72E28C2AD9BA07699E /* NCMBIncrementOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBIncrementOperation.h; path = NCMB/Operations/NCMBIncrementOperation.h; sourceTree = "<group>"; };
+		E70861AF017D29E4AFFF811B4871D9F9 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		EC169B12658C54D59EC6ABCDC0F84E52 /* NCMB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NCMB.framework; path = NCMB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFE2D03715E61DF5D47079C91781760 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		EEE40651AA7325E92148EBCAE45AB831 /* NCMBGeoPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBGeoPoint.m; path = NCMB/NCMBGeoPoint.m; sourceTree = "<group>"; };
+		EE6ECE1A66FD611BAB548F010EDD0317 /* NCMBURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBURLSession.m; path = NCMB/NCMBURLSession/NCMBURLSession.m; sourceTree = "<group>"; };
+		EFA1FFD7CC6D116822F1876BFDCC2331 /* UIView+Screenshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Screenshot.m"; path = "Categories/UIView+Screenshot.m"; sourceTree = "<group>"; };
 		F0A5D5F014D8979F9C96EF584DEF95F1 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		F19C8661FB7DA3FB1427BA53C905ECB4 /* NCMBError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBError.m; path = NCMB/NCMBError.m; sourceTree = "<group>"; };
+		F2020A99DC086F20BB6A0A351CC85D6E /* NCMBAddUniqueOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddUniqueOperation.m; path = NCMB/Operations/NCMBAddUniqueOperation.m; sourceTree = "<group>"; };
+		F248BAEA087CA797CC4C1DDD5AF539A7 /* NYXImagesHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYXImagesHelper.m; path = Helper/NYXImagesHelper.m; sourceTree = "<group>"; };
+		F2A02C38BD19140DCE9E3F0C920FF6F1 /* NYXImagesKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NYXImagesKit.framework; path = NYXImagesKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46A39CF795EB675EF6C7DC3812F0E9E /* Pods-Login-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Login-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F7F98120BF82563826DC4B0E0E0D7BD6 /* NCMBRole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRole.m; path = NCMB/NCMBRole.m; sourceTree = "<group>"; };
-		FF3460BCD99A420DDB0BC1C39E6AFC24 /* NCMB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NCMB.modulemap; sourceTree = "<group>"; };
-		FF78253C23C5F5625306F9022C88CFF3 /* NCMBScriptService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScriptService.m; path = NCMB/NCMBScriptService/NCMBScriptService.m; sourceTree = "<group>"; };
+		F4EA21BEC2CADF2ED30FC259AC81D005 /* NCMBRole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRole.m; path = NCMB/NCMBRole.m; sourceTree = "<group>"; };
+		F9A9D33D356F45EDB125DBA257C5FC65 /* NCMBFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBFile.m; path = NCMB/NCMBFile.m; sourceTree = "<group>"; };
+		FB27271D0E265FBC1389402A6FE469E5 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		FB41D7B2963DC15E90EFDC79AC40DA20 /* NCMBObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBObject.m; path = NCMB/NCMBObject.m; sourceTree = "<group>"; };
+		FB4EC127842CEAC28B851663B52CBB96 /* NYXProgressiveImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYXProgressiveImageView.h; path = Classes/NYXProgressiveImageView.h; sourceTree = "<group>"; };
+		FB5AB151AD1421F91D4A825D81074E6A /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFF43E96B9CE880064E16A05B0AFBE7 /* NCMBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnalytics.h; path = NCMB/NCMBAnalytics.h; sourceTree = "<group>"; };
+		FD6431D68F64EA07E4B12C5F4FE2BBE0 /* UIImage+Filtering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Filtering.m"; path = "Categories/UIImage+Filtering.m"; sourceTree = "<group>"; };
+		FECC3DB4F9B6B204FF3330B1F3CDCBD8 /* UITextView+Placeholder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITextView+Placeholder.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +342,23 @@
 				AD1CE48EFEA4F5DDD98B8C7D7AB5BEE9 /* MobileCoreServices.framework in Frameworks */,
 				6CFD020476111944FAC57B4663DA403A /* SystemConfiguration.framework in Frameworks */,
 				93EFE7938FFB05F858E08BA72333751B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8F2BB80EF962C2054D5F1CB81C6462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581AFD60F9476BFC9B8EB417BE266401 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51564A5908ADAD67AE27D3A195FE01E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AA6C5B988C6811D711244B624F966B /* Foundation.framework in Frameworks */,
+				E5BC38A5D0041ADF25B50C18F3D48CCF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,29 +376,135 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2C497194E61EF200C1E800102C23AB7 /* Frameworks */ = {
+		DE07B3A1B95D15053378BCE87B322D1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4EE52B6D254E386336F1ACC47175573 /* Foundation.framework in Frameworks */,
+				2A60F68B5BD25258469953F29D288D03 /* Foundation.framework in Frameworks */,
+				8CAC5058FC9AED5200E6949CDA48418A /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		026C2D574D21F3D1FC07017BCCD7BC7E /* Support Files */ = {
+		1038EEB7C298C8D61A4A995638CB148E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6DCCF59062960BBBCE43B19FD9A8AE39 /* Info.plist */,
-				8A61FDE0AA2D79F7C5926201D964E799 /* NYXImagesKit.modulemap */,
-				8A291CC691FF0B2760B37930AF20BDE7 /* NYXImagesKit.xcconfig */,
-				1761C7C0E9D45D60B8182144E276A055 /* NYXImagesKit-dummy.m */,
-				9DA7E343813E981F5E70F5C367BA350D /* NYXImagesKit-prefix.pch */,
-				202823DC53C88E6525D1F74E64121414 /* NYXImagesKit-umbrella.h */,
+				2FF210E7CC14F9092B564CA354860263 /* Info.plist */,
+				82E6F94A42430916CE3C1B0ABB6A7110 /* SVProgressHUD.modulemap */,
+				393E21D2194962F6A45AF3AB630EA03E /* SVProgressHUD.xcconfig */,
+				BF9C5C952BF3A0F6804FF94FF35B55C7 /* SVProgressHUD-dummy.m */,
+				435592B8463BE5B10B520B8004E94DBE /* SVProgressHUD-prefix.pch */,
+				7FCF605F754A90CBE1A3E4C0C8BCB8B3 /* SVProgressHUD-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/NYXImagesKit";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		191BE1624632D00B575D5472F8B90CF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC169B12658C54D59EC6ABCDC0F84E52 /* NCMB.framework */,
+				F2A02C38BD19140DCE9E3F0C920FF6F1 /* NYXImagesKit.framework */,
+				9B5CD5B76875392B05C43B1CAAF2B94D /* Pods_Login.framework */,
+				FB5AB151AD1421F91D4A825D81074E6A /* SVProgressHUD.framework */,
+				B474B555DB9FE9867FA5C772BC14A7CC /* UITextView_Placeholder.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1963EA2513F059E3623128D6E53CEFEE /* NCMB */ = {
+			isa = PBXGroup;
+			children = (
+				54F848E693BA13C781690070E0409567 /* NCMB.h */,
+				B6B7FE5D1BBAE67CCEE67CC7504E8780 /* NCMB.m */,
+				BE30953EFB738D091A07F455A1EE36CA /* NCMB_umbrella.h */,
+				74C699C96F3998336AF4E9CFC59924B9 /* NCMBACL.h */,
+				C188EDE80B5330FCCDF49B29F5A88FB4 /* NCMBACL.m */,
+				3BCAD9CE89CBFF9DCC10FE175A601666 /* NCMBAddOperation.h */,
+				B458F8DFB79AB7BE0C8B34A28E6CF501 /* NCMBAddOperation.m */,
+				285FB1EC0224BF4D7D99D1EAB2C1D0EE /* NCMBAddUniqueOperation.h */,
+				F2020A99DC086F20BB6A0A351CC85D6E /* NCMBAddUniqueOperation.m */,
+				FCFF43E96B9CE880064E16A05B0AFBE7 /* NCMBAnalytics.h */,
+				0AA8304B70E730EF9B7B8FE7ECCF7601 /* NCMBAnalytics.m */,
+				8DB80E807D948E26C3FBFF2BDD0CB860 /* NCMBAnonymousUtils.h */,
+				890AB2C73BFAFAC43F57616B5A1CA13E /* NCMBAnonymousUtils.m */,
+				D3325277099DE38768775705F2E3A3AA /* NCMBCloseImageView.h */,
+				7A3205A92DCA4333ED8825D03A19C4E4 /* NCMBCloseImageView.m */,
+				BB88F66B3239E0DC481062BE4B9EF3FF /* NCMBConstants.h */,
+				BBA6E82B19FCF241FA0E4E13D5C7DD3E /* NCMBDateFormat.h */,
+				955665950577A2AB431DE71C68B7E3FD /* NCMBDateFormat.m */,
+				0CC4C11465FEBF648C1AC7C548847B09 /* NCMBDeleteOperation.h */,
+				9F8067A6CA881B1D4BF3A634473D0C1B /* NCMBDeleteOperation.m */,
+				1C1DB857E48C7E782B26F66A53E98543 /* NCMBError.h */,
+				F19C8661FB7DA3FB1427BA53C905ECB4 /* NCMBError.m */,
+				563908AE2AB5AE5BDE97B9218E68DF0A /* NCMBFile.h */,
+				F9A9D33D356F45EDB125DBA257C5FC65 /* NCMBFile.m */,
+				63A09AE432EBB466FD11F5B4DB657C68 /* NCMBGeoPoint.h */,
+				C537A5C1C5D178EB2DA9D601116D17F5 /* NCMBGeoPoint.m */,
+				E390F1E6E6722E72E28C2AD9BA07699E /* NCMBIncrementOperation.h */,
+				A2A063B218E5F172C20354B43D020243 /* NCMBIncrementOperation.m */,
+				2EEC5EE2B82A17F8E6217844EC0FB5E1 /* NCMBInstallation.h */,
+				3E81837BB1DBAD13DB8958255E0214DB /* NCMBInstallation.m */,
+				B2FF8A74F599D760C2E8D2DAA42E69A8 /* NCMBObject.h */,
+				FB41D7B2963DC15E90EFDC79AC40DA20 /* NCMBObject.m */,
+				90E9BDF58D41747D08082888D5279560 /* NCMBObject+Private.h */,
+				9B71BFF841D8A32A06069D1DB24997AB /* NCMBObject+Subclass.h */,
+				729A026A674B700256763B35ED6491EA /* NCMBPush.h */,
+				9D33F4AB49E677A886A3E97CD0DDEE28 /* NCMBPush.m */,
+				9074975F5BE46CBC648BCBFBA05D9B36 /* NCMBQuery.h */,
+				91D8213A9C47FDA9CAF250A93B26080F /* NCMBQuery.m */,
+				0FE287F5BDE2E6436B6FDBF2C2BF3DA2 /* NCMBQuery+Private.h */,
+				A875F62AF562BDDEDD953903018C5BDA /* NCMBReachability.h */,
+				9B15E77288FB8519B011094E0CCE6455 /* NCMBReachability.m */,
+				9FEA72551EA0FBFC614713476EE22AA4 /* NCMBRelation.h */,
+				129F4675079B422D8229E3F15F7FB5B2 /* NCMBRelation.m */,
+				08D302ED8F06AE7F847FD83235ED85A6 /* NCMBRelation+Private.h */,
+				4701638C0DE0805B1FDE142B835DB7F6 /* NCMBRelationOperation.h */,
+				A0C24983E0531C4AF4DC1E048C1B5142 /* NCMBRelationOperation.m */,
+				DBBFE776F315A71177FDE16333D79760 /* NCMBRemoveOperation.h */,
+				81D85324CAD3C6F0130188E89C7A76AB /* NCMBRemoveOperation.m */,
+				9787C91678C44B26C0D8243AB4C4EB94 /* NCMBRequest.h */,
+				3383610F24F9B97D3F4057C10F59232A /* NCMBRequest.m */,
+				9E82993B05234F408C24D6D10B768103 /* NCMBRichPushView.h */,
+				962DFECF0C544A61A385662D74EB0541 /* NCMBRichPushView.m */,
+				3D869F0C53606F10639C121EDAC2C060 /* NCMBRole.h */,
+				F4EA21BEC2CADF2ED30FC259AC81D005 /* NCMBRole.m */,
+				8B80A02A4CFC590140437857AC5968ED /* NCMBScript.h */,
+				AB7735B9E7B6F8B6639AACAC3391D93F /* NCMBScript.m */,
+				6FA7E411F796E4B6498527FDAC24A3F4 /* NCMBScriptService.h */,
+				0211C3045C2382DB2BC1330AAAAEFA31 /* NCMBScriptService.m */,
+				1DF7E66142505E1A098ED577706D762A /* NCMBSetOperation.h */,
+				C2496661E55D928FF1182061C0B0C087 /* NCMBSetOperation.m */,
+				AB0CFEEDCE28D33F101C91513F7922F7 /* NCMBSubclassing.h */,
+				19619EF306E0C7DA550716290DA1F89A /* NCMBURLSession.h */,
+				EE6ECE1A66FD611BAB548F010EDD0317 /* NCMBURLSession.m */,
+				48A199A684692AFE37C13ECADEE1EE26 /* NCMBUser.h */,
+				CBB74AF0ACA68B652F206594827CE2D9 /* NCMBUser.m */,
+				506CF81D96221EEE1D617EC8578186C9 /* NCMBUser+Private.h */,
+				C43EDC066F2D1D37EEC94BDD4A99A11B /* NSDataBase64Encode.h */,
+				2A25653BC490D55C2A231E3A00D4AB75 /* NSDataBase64Encode.m */,
+				03F5BC27B08E1FEA2F286EFEAE7F9391 /* SubClassHandler.h */,
+				3F0DF62A08E34E2ED558AE977516ABC4 /* SubClassHandler.m */,
+				1B0DBCA00990E51398E78A1FB9186798 /* Support Files */,
+			);
+			name = NCMB;
+			path = NCMB;
+			sourceTree = "<group>";
+		};
+		1B0DBCA00990E51398E78A1FB9186798 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28BB2831A77BB245F9A0E3CB4248D1B2 /* Info.plist */,
+				50F55874B4A42DFA54829DB7FDE2EFFF /* NCMB.modulemap */,
+				71057DFF75062E8FBC52E3B888D80E74 /* NCMB.xcconfig */,
+				5E7C97743C0969F8AACBFCCD766756C8 /* NCMB-dummy.m */,
+				41329061FD76B92FFDCDBC761A87B27A /* NCMB-prefix.pch */,
+				D6B392C0DEFA3E3E24D74872F94FCB63 /* NCMB-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NCMB";
 			sourceTree = "<group>";
 		};
 		20745903BDA2A96E19978A307CD313C5 /* Pods-Login */ = {
@@ -344,6 +525,20 @@
 			path = "Target Support Files/Pods-Login";
 			sourceTree = "<group>";
 		};
+		603CD56413F8006821FD78975CC7ED78 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D44355B2BF6F8E0C8F1C1E725702D4F /* Info.plist */,
+				883CDE82A87E0C8D7E3196D0BCEEF091 /* NYXImagesKit.modulemap */,
+				9B3C79446F1CE4FD1C60F50696CA5CDD /* NYXImagesKit.xcconfig */,
+				61D2916330752AE12EDFFF628C04FB3A /* NYXImagesKit-dummy.m */,
+				594534938915EBA0ADC07174772FACCA /* NYXImagesKit-prefix.pch */,
+				5EB09D6325FABDB87E9FEFC6C187B1D4 /* NYXImagesKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NYXImagesKit";
+			sourceTree = "<group>";
+		};
 		677115619700698B490DD3254EF69BDC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,94 +547,41 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		7C85D6DEC34179CB0EEF95E8B70E6250 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CF65DE671049B8111E64CB4FE0F481D /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */,
-				D4D7366E4886131519124DCDC3A1F7CF /* Pods */,
-				895F071C1500E6CA83E2844FCC7693E4 /* Products */,
+				B31CFB8C89807EDC700D3AF67C65A00F /* Pods */,
+				191BE1624632D00B575D5472F8B90CF8 /* Products */,
 				677115619700698B490DD3254EF69BDC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		87560E766A31CED78B3AEF293D67EBD7 /* NCMB */ = {
+		870F304E10483B446E15A9D1A988ACD8 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				58EB136E3F6D04533360176A62D05A6A /* NCMB.h */,
-				B400DB1342C9F769EBB15D8C39B43501 /* NCMB.m */,
-				498BD6EF625FCC2FA35FDA667EF9E05F /* NCMB_umbrella.h */,
-				71D7C09485EF9364983EA3EAAC175C23 /* NCMBACL.h */,
-				36F1D48501365904C658118B828B530D /* NCMBACL.m */,
-				C3B18D247FC086F228BD48C1E74320C1 /* NCMBAddOperation.h */,
-				82B68326C6F7D426AF8F0976F7B833BB /* NCMBAddOperation.m */,
-				CEF1E5B66DCF7D16986BF1C04EAF0CBF /* NCMBAddUniqueOperation.h */,
-				2197CCB9443A9836FA12C9E2E093E01A /* NCMBAddUniqueOperation.m */,
-				4DA76B0FB8EC45FBE901CE78B6F8DC8B /* NCMBAnalytics.h */,
-				E45C9A7275B939DB59061CBCA2DDF8D1 /* NCMBAnalytics.m */,
-				3DE149A397066EB2D2515E1053E6C1EB /* NCMBAnonymousUtils.h */,
-				9F12D92A97D3CB66A986FC4FA22EFF30 /* NCMBAnonymousUtils.m */,
-				CB0285E64ECCB5690DAA281035E4B23B /* NCMBCloseImageView.h */,
-				2DA16483921633091A9CBC733EBBBFCD /* NCMBCloseImageView.m */,
-				09BB014FC82CD5CD94FA976233BDF324 /* NCMBConstants.h */,
-				DE9C1AD95B744F1729F8E7A2B0CE5A4E /* NCMBDateFormat.h */,
-				97A72A02AFF296BBF617D2FAA4CD4986 /* NCMBDateFormat.m */,
-				46B0267D56B344601EB0EDF12A175B4B /* NCMBDeleteOperation.h */,
-				3A31501425FC3BEFA8F47E7226A30221 /* NCMBDeleteOperation.m */,
-				85513354EB1D9CC05B3D19A1E84BDBA6 /* NCMBError.h */,
-				63048B7CB6740FDF1E36E6C3EEFD9144 /* NCMBError.m */,
-				5F3A827DB9B1CFCD7D565727562CE48E /* NCMBFile.h */,
-				3B68F16249309D47C101FE053A7F1444 /* NCMBFile.m */,
-				433C6439E5098223E0C92346C256F0EE /* NCMBGeoPoint.h */,
-				EEE40651AA7325E92148EBCAE45AB831 /* NCMBGeoPoint.m */,
-				BA687F1047F00224C6138A755940EAB7 /* NCMBIncrementOperation.h */,
-				08F58E643A93E82CEFBE4EFCA7A824DD /* NCMBIncrementOperation.m */,
-				4E20EED6C2A77B65FF4339DFC1EB9C94 /* NCMBInstallation.h */,
-				BBCF81C28B942FFFF3355F078A4799B8 /* NCMBInstallation.m */,
-				2DCBDA6B7A853F61A4311770FD5E30C8 /* NCMBObject.h */,
-				63F5628415BF95D9B12158A123F6FCF1 /* NCMBObject.m */,
-				68F23C1EC1343AA60DCDE542B370FF20 /* NCMBObject+Private.h */,
-				28F4C0F27D29B687DE35125EAB402B3E /* NCMBObject+Subclass.h */,
-				AF7BE3D5D09B76FBB4E799B2F972BA62 /* NCMBPush.h */,
-				90C57F0E1464344025661FA2848DB920 /* NCMBPush.m */,
-				465DB9E3E31F18DA29F12E197D4536F8 /* NCMBQuery.h */,
-				A45A354E975889D8AE31AE4FC7C8D85C /* NCMBQuery.m */,
-				D85044F838A41915B4758730DCE65ED8 /* NCMBQuery+Private.h */,
-				0D4FBD90AB151DAA6FEB79106605917C /* NCMBReachability.h */,
-				AA4448D6FA39A09D8399A44B0D72CCB5 /* NCMBReachability.m */,
-				2A1A6A8A25852223F4A1FBBFE7365749 /* NCMBRelation.h */,
-				9376FEF2907BEB4164197BF321D3DC0D /* NCMBRelation.m */,
-				4A30990D85D1F3848549C933FB6C9C4C /* NCMBRelation+Private.h */,
-				E73E72C613E3B1A0C1F004BB948899E6 /* NCMBRelationOperation.h */,
-				BE58EC4F2FFC888D0175FFF29642B89A /* NCMBRelationOperation.m */,
-				13D2CB81F4FCC6D17B22D9A5D22058B8 /* NCMBRemoveOperation.h */,
-				1AAFA74099E11ACE02E21304154BB10B /* NCMBRemoveOperation.m */,
-				75B638C44B11EF210058BCF7EDEC13CD /* NCMBRequest.h */,
-				BD1B53DB4C527829C0FA8DAE8382FF72 /* NCMBRequest.m */,
-				C90CDD7BAFF054E2356203BBF4D16085 /* NCMBRichPushView.h */,
-				E5EFDE19D58E53835A0872338E533025 /* NCMBRichPushView.m */,
-				DF62374A4708CFFC5F00C4478BF629A4 /* NCMBRole.h */,
-				F7F98120BF82563826DC4B0E0E0D7BD6 /* NCMBRole.m */,
-				74CB763CEB9868E3F86ED7C42A9CAD8A /* NCMBScript.h */,
-				9AC1DAACC7088D61A842FF77C4C959E1 /* NCMBScript.m */,
-				62D03F0693A26146ABC53627F2438B21 /* NCMBScriptService.h */,
-				FF78253C23C5F5625306F9022C88CFF3 /* NCMBScriptService.m */,
-				004049779C94A951FCF8BCAEE67836B5 /* NCMBSetOperation.h */,
-				E94A656854C973850C04FFE1B2DFB709 /* NCMBSetOperation.m */,
-				65C5A1447CD73B433E0F7F299DD0E83D /* NCMBSubclassing.h */,
-				09BE3CC0A8D823268A567736D409A174 /* NCMBURLSession.h */,
-				DB2B4787CE4946B9A65B61AFCB78232B /* NCMBURLSession.m */,
-				B541FA9D5E167E327C54406414792D13 /* NCMBUser.h */,
-				08E0F79847F660F9ECE73B5FBC9FD157 /* NCMBUser.m */,
-				7DF505222DFCFE9402EE9290AEEA7541 /* NCMBUser+Private.h */,
-				D9D747B7553BA37994F92AE9AB9552BB /* NSDataBase64Encode.h */,
-				06ACD51E040E070EEF98B063DB67E807 /* NSDataBase64Encode.m */,
-				8C3178A992B0CB5DC25AE46E96090D8D /* SubClassHandler.h */,
-				B7B93A4BFAA91F537C7E762FAE2D34E2 /* SubClassHandler.m */,
-				A0F12C3DA4FDA69CF84EBFB9CB3C7361 /* Support Files */,
+				E70861AF017D29E4AFFF811B4871D9F9 /* SVIndefiniteAnimatedView.h */,
+				C8C724BDE9A8CBDC7EB961F7C6008B83 /* SVIndefiniteAnimatedView.m */,
+				7A7B262C9DF3DE930A8F1B26FB0A46D0 /* SVProgressAnimatedView.h */,
+				FB27271D0E265FBC1389402A6FE469E5 /* SVProgressAnimatedView.m */,
+				01B6F433F483FBAF900CC25E606B68CA /* SVProgressHUD.h */,
+				06A255A287E176EBD4553AB4C446A99F /* SVProgressHUD.m */,
+				CFF738D02105C1A93BBFF907E69BBCEA /* SVRadialGradientLayer.h */,
+				24DAC7F215E18D1BE6C920D6282C079C /* SVRadialGradientLayer.m */,
+				7C85D6DEC34179CB0EEF95E8B70E6250 /* Resources */,
+				1038EEB7C298C8D61A4A995638CB148E /* Support Files */,
 			);
-			name = NCMB;
-			path = NCMB;
+			name = SVProgressHUD;
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */ = {
@@ -450,37 +592,60 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		895F071C1500E6CA83E2844FCC7693E4 /* Products */ = {
+		B31CFB8C89807EDC700D3AF67C65A00F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				192A99274E3E884BC10751D3CF8984C3 /* NCMB.framework */,
-				54620B7342DA06A5D840CF1B64A818A4 /* NYXImagesKit.framework */,
-				E8D5564EF35B54FFF21FC644626C3FB0 /* Pods_Login.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A0F12C3DA4FDA69CF84EBFB9CB3C7361 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A5CD55119CAE42F4184F08F616B77F41 /* Info.plist */,
-				FF3460BCD99A420DDB0BC1C39E6AFC24 /* NCMB.modulemap */,
-				50F876DD0A398D1DCEF8C364C1BC8306 /* NCMB.xcconfig */,
-				A00BFAF58440F03B53831304D099A2C5 /* NCMB-dummy.m */,
-				512EB130C4B4BDEB9CD685431B3900D8 /* NCMB-prefix.pch */,
-				884F2670A453ED3A8CE2AEE620435FE5 /* NCMB-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/NCMB";
-			sourceTree = "<group>";
-		};
-		D4D7366E4886131519124DCDC3A1F7CF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				87560E766A31CED78B3AEF293D67EBD7 /* NCMB */,
-				F647308DEC271242737FB5D789F6260E /* NYXImagesKit */,
+				1963EA2513F059E3623128D6E53CEFEE /* NCMB */,
+				D5845F87AE3DEE852D3BC847C20889F3 /* NYXImagesKit */,
+				870F304E10483B446E15A9D1A988ACD8 /* SVProgressHUD */,
+				E0750594DD7215A430EE35E980308FFB /* UITextView+Placeholder */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5845F87AE3DEE852D3BC847C20889F3 /* NYXImagesKit */ = {
+			isa = PBXGroup;
+			children = (
+				0E48F65A6B253DDA083A64A05536A675 /* NYXImagesHelper.h */,
+				F248BAEA087CA797CC4C1DDD5AF539A7 /* NYXImagesHelper.m */,
+				DCC9E350D1503C27232A0296A99321B2 /* NYXImagesKit.h */,
+				FB4EC127842CEAC28B851663B52CBB96 /* NYXProgressiveImageView.h */,
+				7A1A7953BF9D247E7E4596598C5FDF22 /* NYXProgressiveImageView.m */,
+				1D3E430E70CE13671B51092742D890E6 /* UIImage+Blurring.h */,
+				71DF919A5E172C1601C4BE97649C86EF /* UIImage+Blurring.m */,
+				025778308657BC3ABDAC17D85736BC52 /* UIImage+Enhancing.h */,
+				84A6CE337345EEBA045D553DEC95E0A0 /* UIImage+Enhancing.m */,
+				DB254AA7E5FFB217D8276D08A913AFEA /* UIImage+Filtering.h */,
+				FD6431D68F64EA07E4B12C5F4FE2BBE0 /* UIImage+Filtering.m */,
+				455C208818F1C59DBA36B2BB3C13807E /* UIImage+Masking.h */,
+				4EB554D582CAAE36FF061DAF3FD8389D /* UIImage+Masking.m */,
+				BD84F5A423B9B8E86418050912F155AC /* UIImage+Reflection.h */,
+				BE1F7032CEA123C93D9ACB01FC36939D /* UIImage+Reflection.m */,
+				0E939887C071C89FD1968B7B450E6832 /* UIImage+Resizing.h */,
+				407D496CF64BCFA2464A5C381589B782 /* UIImage+Resizing.m */,
+				8940DCAAB8401F91D7CFAB95B6960166 /* UIImage+Rotating.h */,
+				B4EEC8F61076CB54C92285DDA9C698D7 /* UIImage+Rotating.m */,
+				9559F7684C2918BEE1A6EFF05C1CF5F4 /* UIImage+Saving.h */,
+				0914488859B8CB1597311DA8E3835926 /* UIImage+Saving.m */,
+				77D9476F6E79E1F4B7919F5B4223AE86 /* UIScrollView+Screenshot.h */,
+				3174D9CE50857631AF157812A2C43980 /* UIScrollView+Screenshot.m */,
+				8C079E86EDE347A606B2CA1C7CBAB12E /* UIView+Screenshot.h */,
+				EFA1FFD7CC6D116822F1876BFDCC2331 /* UIView+Screenshot.m */,
+				603CD56413F8006821FD78975CC7ED78 /* Support Files */,
+			);
+			name = NYXImagesKit;
+			path = NYXImagesKit;
+			sourceTree = "<group>";
+		};
+		E0750594DD7215A430EE35E980308FFB /* UITextView+Placeholder */ = {
+			isa = PBXGroup;
+			children = (
+				7775E6E796F80F892D7ECB0699FD3FE4 /* UITextView+Placeholder.h */,
+				41A1C7D7F48E068AB187D0B226561D40 /* UITextView+Placeholder.m */,
+				F1E0F9F7230CCCD465A8CB12BC2BA10C /* Support Files */,
+			);
+			name = "UITextView+Placeholder";
+			path = "UITextView+Placeholder";
 			sourceTree = "<group>";
 		};
 		EAFF51115EED5799B9785AAE1F7BC28E /* iOS */ = {
@@ -500,48 +665,32 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F647308DEC271242737FB5D789F6260E /* NYXImagesKit */ = {
+		F1E0F9F7230CCCD465A8CB12BC2BA10C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B25D2D5960DF9200AFCAB8B60699B3E7 /* NYXImagesHelper.h */,
-				D057F4B7F77D69464446680C8509B688 /* NYXImagesHelper.m */,
-				A83ABD4CCCE6718866A2EE60878680E7 /* NYXImagesKit.h */,
-				A50ED225FB5454EAE667038C7EBCDD25 /* NYXProgressiveImageView.h */,
-				C743E6C1564DD1309CB31B3C9DCB1046 /* NYXProgressiveImageView.m */,
-				B10C757447272CCDE524693C4D7267EF /* UIImage+Blurring.h */,
-				E32F34AC91F5B2B35DECEDA7A80B06E1 /* UIImage+Blurring.m */,
-				A3220D569FFED28267251460C98FC374 /* UIImage+Enhancing.h */,
-				9A441C44927380A599D3952D82089418 /* UIImage+Enhancing.m */,
-				D1B67BE5B0F261A55246F9B3DA01F803 /* UIImage+Filtering.h */,
-				E9CFB20EFF6038FD0E48897DB3B2DF54 /* UIImage+Filtering.m */,
-				BF17DF5BF154488CFCFD900B64EF1CF4 /* UIImage+Masking.h */,
-				9B712AF381CE8539262769D6C6321B5D /* UIImage+Masking.m */,
-				BAC55C129DDE8D26D0BFC003E4F99783 /* UIImage+Reflection.h */,
-				A1CE147A766EF11167321A5DCD9FD54A /* UIImage+Reflection.m */,
-				18CBF658A6BA3F239ADA1DB1CC39C001 /* UIImage+Resizing.h */,
-				293CAA047D8E6A754CE156AF7D6F6B94 /* UIImage+Resizing.m */,
-				DFB69C1282AA1D16B5BB5826DF5EE9FD /* UIImage+Rotating.h */,
-				DD0616907BE6BC37EBE65B933138DA62 /* UIImage+Rotating.m */,
-				6BF70602D0DD453CC79F69468E474B1A /* UIImage+Saving.h */,
-				8B98EB5BC60B36AFAFE6B94640A4362E /* UIImage+Saving.m */,
-				AF5DD1C8E277E335B8B493370477D2C6 /* UIScrollView+Screenshot.h */,
-				38C0B42D956DD662417CB2134419A751 /* UIScrollView+Screenshot.m */,
-				03456F61A4B727CEB4BF5A25B4D119FA /* UIView+Screenshot.h */,
-				BE28EDF3A9F022B08522B38B90BAE891 /* UIView+Screenshot.m */,
-				026C2D574D21F3D1FC07017BCCD7BC7E /* Support Files */,
+				DD9685570CEBCE9687402A645EB80282 /* Info.plist */,
+				D7DBD07F16BE5189D07CAEE886FE46DB /* UITextView+Placeholder.modulemap */,
+				FECC3DB4F9B6B204FF3330B1F3CDCBD8 /* UITextView+Placeholder.xcconfig */,
+				04231924DF1864ADA4A0863CF174B9C7 /* UITextView+Placeholder-dummy.m */,
+				9BCE239C9F79223898616AB14E34D30A /* UITextView+Placeholder-prefix.pch */,
+				000F65040392D161C976F51F4460AE8E /* UITextView+Placeholder-umbrella.h */,
 			);
-			name = NYXImagesKit;
-			path = NYXImagesKit;
+			name = "Support Files";
+			path = "../Target Support Files/UITextView+Placeholder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1B0E574FA141549F4A625FFD134953B5 /* Headers */ = {
+		355F218916ACFF0082BA8EB7DAFFBE06 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC0F8ABDE5CEF59353BDA5F2CCEF643D /* Pods-Login-umbrella.h in Headers */,
+				170FE188F3F594AEC5155F669FA8B26F /* SVIndefiniteAnimatedView.h in Headers */,
+				4B3F500C9A7A30CCE6A7D16554B03E29 /* SVProgressAnimatedView.h in Headers */,
+				6D2A89959334C9555425DC4108F4CEEE /* SVProgressHUD-umbrella.h in Headers */,
+				DD4F90E05BB75ECF3FD7C5499B8AE4CB /* SVProgressHUD.h in Headers */,
+				BD615E8A0D96FE8B49E57F907B171AAB /* SVRadialGradientLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,27 +762,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF8CC6868E026E2CD30369F7F66C9D88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A835068233AE7413638E0E923FAD94 /* UITextView+Placeholder-umbrella.h in Headers */,
+				97FF2ADA8166C55269E8D20864151E6B /* UITextView+Placeholder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1486BD86D4FE7979A448D0F181E817F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6379578A03E89CBCBB503F2F52D8EC3 /* Pods-Login-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2D63E9097954268019C3FF7D1D76EE90 /* Pods-Login */ = {
+		31888E93A54C340DC33571C41F8C4860 /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03D17335A7EA0B3F84D26BC6E4A98037 /* Build configuration list for PBXNativeTarget "Pods-Login" */;
+			buildConfigurationList = 29EEF863475945500D11142456958CB2 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				1B0E574FA141549F4A625FFD134953B5 /* Headers */,
-				FBE5ECB15E20912E4135260E0ADF3456 /* Sources */,
-				B2C497194E61EF200C1E800102C23AB7 /* Frameworks */,
-				DF85B0AE28D60B251B362222E1B394FD /* Resources */,
+				355F218916ACFF0082BA8EB7DAFFBE06 /* Headers */,
+				01A3B7FF010B23E73BF63DD184B8E823 /* Sources */,
+				DE07B3A1B95D15053378BCE87B322D1C /* Frameworks */,
+				665FFF12A2ACB93102ADCC5A59AD3B6E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				88DFED6ACDC69FB8A5588B957FA73856 /* PBXTargetDependency */,
-				C17FA8DFBD38120A715D3B1C2A263B1D /* PBXTargetDependency */,
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = FB5AB151AD1421F91D4A825D81074E6A /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6323EDD2529AAD7C77660E42F037D96 /* UITextView+Placeholder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C3F5089E3FBACAEE773C2BD087F44AC /* Build configuration list for PBXNativeTarget "UITextView+Placeholder" */;
+			buildPhases = (
+				DF8CC6868E026E2CD30369F7F66C9D88 /* Headers */,
+				99769C14B9BA9EA00ED54724304DF1E3 /* Sources */,
+				51564A5908ADAD67AE27D3A195FE01E7 /* Frameworks */,
+				BF849AB0290F5197510284A71703A8B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITextView+Placeholder";
+			productName = "UITextView+Placeholder";
+			productReference = B474B555DB9FE9867FA5C772BC14A7CC /* UITextView_Placeholder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD4DF6A003F2A5AC0970EF44A4C0BA06 /* Pods-Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19B620EF19499A6354135877076ADB5 /* Build configuration list for PBXNativeTarget "Pods-Login" */;
+			buildPhases = (
+				F1486BD86D4FE7979A448D0F181E817F /* Headers */,
+				339BAF9BA5B7F90AD0A83FABB8CD16BD /* Sources */,
+				3B8F2BB80EF962C2054D5F1CB81C6462 /* Frameworks */,
+				C47D79DCB5530C2B73D120AD6982557A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB784EA3213C55A80169323E3EF1A691 /* PBXTargetDependency */,
+				421E12D85F31DB8B9BAD9BB46DD7B2C3 /* PBXTargetDependency */,
+				30A9D98476053AEDAC4096D327CC6FC0 /* PBXTargetDependency */,
+				BD3892B885A8A27964D3A030E3B98B5C /* PBXTargetDependency */,
 			);
 			name = "Pods-Login";
 			productName = "Pods-Login";
-			productReference = E8D5564EF35B54FFF21FC644626C3FB0 /* Pods_Login.framework */;
+			productReference = 9B5CD5B76875392B05C43B1CAAF2B94D /* Pods_Login.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D55F704A3CCD29C3FB2437327699FAD5 /* NYXImagesKit */ = {
@@ -651,7 +855,7 @@
 			);
 			name = NYXImagesKit;
 			productName = NYXImagesKit;
-			productReference = 54620B7342DA06A5D840CF1B64A818A4 /* NYXImagesKit.framework */;
+			productReference = F2A02C38BD19140DCE9E3F0C920FF6F1 /* NYXImagesKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EED3A1F7C81F78926470A8D26A61FC8C /* NCMB */ = {
@@ -669,7 +873,7 @@
 			);
 			name = NCMB;
 			productName = NCMB;
-			productReference = 192A99274E3E884BC10751D3CF8984C3 /* NCMB.framework */;
+			productReference = EC169B12658C54D59EC6ABCDC0F84E52 /* NCMB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -689,13 +893,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 895F071C1500E6CA83E2844FCC7693E4 /* Products */;
+			productRefGroup = 191BE1624632D00B575D5472F8B90CF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EED3A1F7C81F78926470A8D26A61FC8C /* NCMB */,
 				D55F704A3CCD29C3FB2437327699FAD5 /* NYXImagesKit */,
-				2D63E9097954268019C3FF7D1D76EE90 /* Pods-Login */,
+				BD4DF6A003F2A5AC0970EF44A4C0BA06 /* Pods-Login */,
+				31888E93A54C340DC33571C41F8C4860 /* SVProgressHUD */,
+				B6323EDD2529AAD7C77660E42F037D96 /* UITextView+Placeholder */,
 			);
 		};
 /* End PBXProject section */
@@ -708,6 +914,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		665FFF12A2ACB93102ADCC5A59AD3B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94088E66FFBA5AD55C6E9F2537AEF236 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A42F353F20505FB7B6D831B263A8986A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -715,7 +929,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF85B0AE28D60B251B362222E1B394FD /* Resources */ = {
+		BF849AB0290F5197510284A71703A8B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47D79DCB5530C2B73D120AD6982557A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -725,6 +946,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		01A3B7FF010B23E73BF63DD184B8E823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4938C3C815A294DF29C16D86401AE67 /* SVIndefiniteAnimatedView.m in Sources */,
+				2E7FF60074647C1351CC35E0361B9A35 /* SVProgressAnimatedView.m in Sources */,
+				715CF6EB36BBF2DA5F950A688AB730F4 /* SVProgressHUD-dummy.m in Sources */,
+				CBB1AFE3C0A181A61FE0BC53104C5DDB /* SVProgressHUD.m in Sources */,
+				86162EE3F1577B954554F227E61E9F59 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		27FD918FBF7ACCAE61C54C00F2E097C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -764,6 +997,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		339BAF9BA5B7F90AD0A83FABB8CD16BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EFE6572BCFFCEA1654BF73C18FD6C1 /* Pods-Login-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8537DC7D444947CE0DD47981B3903E10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -784,35 +1025,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBE5ECB15E20912E4135260E0ADF3456 /* Sources */ = {
+		99769C14B9BA9EA00ED54724304DF1E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15A729FC483EC4F3AB0AB54CFCBF8ED6 /* Pods-Login-dummy.m in Sources */,
+				0581EFF9F44E480248456AA71120D1BC /* UITextView+Placeholder-dummy.m in Sources */,
+				94F6F30C423E469096FDE0A9ABB4B7FB /* UITextView+Placeholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		88DFED6ACDC69FB8A5588B957FA73856 /* PBXTargetDependency */ = {
+		30A9D98476053AEDAC4096D327CC6FC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = NCMB;
-			target = EED3A1F7C81F78926470A8D26A61FC8C /* NCMB */;
-			targetProxy = 0B9A754A46F62DE5F3BFB66047205E19 /* PBXContainerItemProxy */;
+			name = SVProgressHUD;
+			target = 31888E93A54C340DC33571C41F8C4860 /* SVProgressHUD */;
+			targetProxy = 6C8EA20E10A5B8062E9B7D31B78DC7A9 /* PBXContainerItemProxy */;
 		};
-		C17FA8DFBD38120A715D3B1C2A263B1D /* PBXTargetDependency */ = {
+		421E12D85F31DB8B9BAD9BB46DD7B2C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NYXImagesKit;
 			target = D55F704A3CCD29C3FB2437327699FAD5 /* NYXImagesKit */;
-			targetProxy = EC28B4D01940C1348D5562453F238A06 /* PBXContainerItemProxy */;
+			targetProxy = C1AC944D397C19150D4D16FDE8070110 /* PBXContainerItemProxy */;
+		};
+		AB784EA3213C55A80169323E3EF1A691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NCMB;
+			target = EED3A1F7C81F78926470A8D26A61FC8C /* NCMB */;
+			targetProxy = 77BD94248A93353737B90111213B7731 /* PBXContainerItemProxy */;
+		};
+		BD3892B885A8A27964D3A030E3B98B5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UITextView+Placeholder";
+			target = B6323EDD2529AAD7C77660E42F037D96 /* UITextView+Placeholder */;
+			targetProxy = BC198C7FDB4FC2D5B97376AE1C2CF9EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0F23567F04C141EA73F9024D7BD224FF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A291CC691FF0B2760B37930AF20BDE7 /* NYXImagesKit.xcconfig */;
+			baseConfigurationReference = 9B3C79446F1CE4FD1C60F50696CA5CDD /* NYXImagesKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -835,6 +1089,42 @@
 				MODULEMAP_FILE = "Target Support Files/NYXImagesKit/NYXImagesKit.modulemap";
 				PRODUCT_MODULE_NAME = NYXImagesKit;
 				PRODUCT_NAME = NYXImagesKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		132B8A656E86BCEA8B9AD7F4842D688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FECC3DB4F9B6B204FF3330B1F3CDCBD8 /* UITextView+Placeholder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UITextView+Placeholder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder.modulemap";
+				PRODUCT_MODULE_NAME = UITextView_Placeholder;
+				PRODUCT_NAME = UITextView_Placeholder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -910,7 +1200,7 @@
 		};
 		1FEF351026FCFF11BD835C707CFB5141 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50F876DD0A398D1DCEF8C364C1BC8306 /* NCMB.xcconfig */;
+			baseConfigurationReference = 71057DFF75062E8FBC52E3B888D80E74 /* NCMB.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -946,7 +1236,7 @@
 		};
 		23464876C114FAA79202C2A5309BD992 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50F876DD0A398D1DCEF8C364C1BC8306 /* NCMB.xcconfig */;
+			baseConfigurationReference = 71057DFF75062E8FBC52E3B888D80E74 /* NCMB.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1045,7 +1335,151 @@
 			};
 			name = Debug;
 		};
-		91D90186E842BC735795C1AAF07F62A6 /* Release */ = {
+		44B201904738BB1E8DFD4658F0078569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393E21D2194962F6A45AF3AB630EA03E /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60683308D1C714E9B3D7860DBD3AF26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393E21D2194962F6A45AF3AB630EA03E /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		778A2F0CFD8B7254EF972E03D78EB1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FECC3DB4F9B6B204FF3330B1F3CDCBD8 /* UITextView+Placeholder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UITextView+Placeholder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder.modulemap";
+				PRODUCT_MODULE_NAME = UITextView_Placeholder;
+				PRODUCT_NAME = UITextView_Placeholder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8AB5CC9C1EC9E2E98C0C9B5416E2037A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184FFB257733642F89AC30FBD551478D /* Pods-Login.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Login/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Login/Pods-Login.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E666354453124CDA75DE5E1DD0A7252 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 26DBE87F1AEA6F0B9B5AB34C46CCE676 /* Pods-Login.release.xcconfig */;
 			buildSettings = {
@@ -1084,47 +1518,9 @@
 			};
 			name = Release;
 		};
-		A7C1042CC5BE447014315AB6729DD1F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 184FFB257733642F89AC30FBD551478D /* Pods-Login.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Login/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Login/Pods-Login.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E737FEB7543AE22A96D1AAB290B57F16 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A291CC691FF0B2760B37930AF20BDE7 /* NYXImagesKit.xcconfig */;
+			baseConfigurationReference = 9B3C79446F1CE4FD1C60F50696CA5CDD /* NYXImagesKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1160,11 +1556,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03D17335A7EA0B3F84D26BC6E4A98037 /* Build configuration list for PBXNativeTarget "Pods-Login" */ = {
+		29EEF863475945500D11142456958CB2 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7C1042CC5BE447014315AB6729DD1F1 /* Debug */,
-				91D90186E842BC735795C1AAF07F62A6 /* Release */,
+				60683308D1C714E9B3D7860DBD3AF26E /* Debug */,
+				44B201904738BB1E8DFD4658F0078569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1174,6 +1570,24 @@
 			buildConfigurations = (
 				4077C028223C67361C2199BCBA4DF21E /* Debug */,
 				151EA45EBC2265D08C19FB40268960E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C3F5089E3FBACAEE773C2BD087F44AC /* Build configuration list for PBXNativeTarget "UITextView+Placeholder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778A2F0CFD8B7254EF972E03D78EB1FB /* Debug */,
+				132B8A656E86BCEA8B9AD7F4842D688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19B620EF19499A6354135877076ADB5 /* Build configuration list for PBXNativeTarget "Pods-Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB5CC9C1EC9E2E98C0C9B5416E2037A /* Debug */,
+				9E666354453124CDA75DE5E1DD0A7252 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
