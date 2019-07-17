@@ -8,30 +8,52 @@
 
 import UIKit
 import NCMB
+import SDWebImage
 import SVProgressHUD
 import SwiftDate
-import Kingfisher
 
-
-class timelineViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class timelineViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, TimeLineTableViewCellDelegate {
+    
+    var selectedPost: Post?
     
     var posts = [Post]()
-
-    @IBOutlet weak var timelineTableView: UITableView!
+    
+    var followings = [NCMBUser]()
+    
+    @IBOutlet var timelineTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        timelineTableView.delegate = self
+        
         timelineTableView.dataSource = self
+        timelineTableView.delegate = self
         
         let nib = UINib(nibName: "TimeLineTableViewCell", bundle: Bundle.main)
         timelineTableView.register(nib, forCellReuseIdentifier: "Cell")
         
         timelineTableView.tableFooterView = UIView()
         
+        // 引っ張って更新
+        setRefreshControl()
+        
+        loadTimeline()
+        
+        // フォロー中のユーザーを取得する。その後にフォロー中のユーザーの投稿のみ読み込み
+        //loadFollowingUsers()
     }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toComments" {
+            let commentViewController = segue.destination as! CommentViewController
+            commentViewController.postId = selectedPost?.objectId
+        }
+    }
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return posts.count
     }
@@ -39,18 +61,19 @@ class timelineViewController: UIViewController,UITableViewDelegate,UITableViewDa
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! TimeLineTableViewCell
         
-        //cell.delegate = self
+        cell.delegate = self
         cell.tag = indexPath.row
         
         let user = posts[indexPath.row].user
         cell.userNameLabel.text = user.displayName
         let userImageUrl = "https://mb.api.cloud.nifty.com/2013-09-01/applications/VxTyCpwvfQh2qccF/publicFiles/" + user.objectId
-        //cell.userImageView.kf.setImage(with: URL(string: userImageUrl), placeholder: UIImage(named: "placeholder.jpg"), options: nil, progressBlock: nil, completionHandler: nil)
-        cell.userImageView.kf.setImage(with: URL(string: userImageUrl), placeholder: UIImage(named: "placeholder.jpg"))
+    
+       // cell.userImageView.sd_setImage(with: URL(string: userImageUrl), placeholder: UIImage(named: "placeholder.jpg"))
+        cell.userImageView.sd_setImage(with: URL(string: userImageUrl))
         
         cell.commentTextView.text = posts[indexPath.row].text
         let imageUrl = posts[indexPath.row].imageUrl
-        cell.photoImageView.kf.setImage(with: URL(string: imageUrl))
+        cell.photoImageView.sd_setImage(with: URL(string: imageUrl))
         
         // Likeによってハートの表示を変える
         if posts[indexPath.row].isLiked == true {
@@ -66,18 +89,96 @@ class timelineViewController: UIViewController,UITableViewDelegate,UITableViewDa
         cell.timeStampLabel.text = posts[indexPath.row].createDate.toString()
         
         return cell
-        
     }
     
-
-    func loadTimeline(){
+    func didTapLikeButton(tableViewCell: UITableViewCell, button: UIButton) {
+        
+        if posts[tableViewCell.tag].isLiked == false || posts[tableViewCell.tag].isLiked == nil {
+            let query = NCMBQuery(className: "Post")
+            query?.getObjectInBackground(withId: posts[tableViewCell.tag].objectId, block: { (post, error) in
+                post?.addUniqueObject(NCMBUser.current().objectId, forKey: "likeUser")
+                post?.saveEventually({ (error) in
+                    if error != nil {
+                        SVProgressHUD.showError(withStatus: error!.localizedDescription)
+                    } else {
+                        self.loadTimeline()
+                    }
+                })
+            })
+        } else {
+            let query = NCMBQuery(className: "Post")
+            query?.getObjectInBackground(withId: posts[tableViewCell.tag].objectId, block: { (post, error) in
+                if error != nil {
+                    SVProgressHUD.showError(withStatus: error!.localizedDescription)
+                } else {
+                    post?.removeObjects(in: [NCMBUser.current().objectId], forKey: "likeUser")
+                    post?.saveEventually({ (error) in
+                        if error != nil {
+                            SVProgressHUD.showError(withStatus: error!.localizedDescription)
+                        } else {
+                            self.loadTimeline()
+                        }
+                    })
+                }
+            })
+        }
+    }
+    
+    func didTapMenuButton(tableViewCell: UITableViewCell, button: UIButton) {
+        let alertController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+        let deleteAction = UIAlertAction(title: "削除する", style: .destructive) { (action) in
+            SVProgressHUD.show()
+            let query = NCMBQuery(className: "Post")
+            query?.getObjectInBackground(withId: self.posts[tableViewCell.tag].objectId, block: { (post, error) in
+                if error != nil {
+                    SVProgressHUD.showError(withStatus: error!.localizedDescription)
+                } else {
+                    // 取得した投稿オブジェクトを削除
+                    post?.deleteInBackground({ (error) in
+                        if error != nil {
+                            SVProgressHUD.showError(withStatus: error!.localizedDescription)
+                        } else {
+                            // 再読込
+                            self.loadTimeline()
+                            SVProgressHUD.dismiss()
+                        }
+                    })
+                }
+            })
+        }
+        let reportAction = UIAlertAction(title: "報告する", style: .destructive) { (action) in
+            SVProgressHUD.showSuccess(withStatus: "この投稿を報告しました。ご協力ありがとうございました。")
+        }
+        let cancelAction = UIAlertAction(title: "キャンセル", style: .cancel) { (action) in
+            alertController.dismiss(animated: true, completion: nil)
+        }
+        if posts[tableViewCell.tag].user.objectId == NCMBUser.current().objectId {
+            // 自分の投稿なので、削除ボタンを出す
+            alertController.addAction(deleteAction)
+        } else {
+            // 他人の投稿なので、報告ボタンを出す
+            alertController.addAction(reportAction)
+        }
+        alertController.addAction(cancelAction)
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
+    func didTapCommentsButton(tableViewCell: UITableViewCell, button: UIButton) {
+        // 選ばれた投稿を一時的に格納
+        selectedPost = posts[tableViewCell.tag]
+        
+        // 遷移させる(このとき、prepareForSegue関数で値を渡す)
+        self.performSegue(withIdentifier: "toComments", sender: nil)
+    }
+    
+    func loadTimeline() {
         let query = NCMBQuery(className: "Post")
         
         // 降順
         query?.order(byDescending: "createDate")
         
         // 投稿したユーザーの情報も同時取得
-        //query?.includeKey("user")
+        query?.includeKey("user")
         
         // フォロー中の人 + 自分の投稿だけ持ってくる
         //query?.whereKey("user", containedIn: followings)
@@ -131,5 +232,39 @@ class timelineViewController: UIViewController,UITableViewDelegate,UITableViewDa
         })
     }
     
-
+    func setRefreshControl() {
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(reloadTimeline(refreshControl:)), for: .valueChanged)
+        timelineTableView.addSubview(refreshControl)
+    }
+    
+    @objc func reloadTimeline(refreshControl: UIRefreshControl) {
+        refreshControl.beginRefreshing()
+        //self.loadFollowingUsers()
+        // 更新が早すぎるので2秒遅延させる
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            refreshControl.endRefreshing()
+        }
+    }
+    
+    func loadFollowingUsers() {
+        // フォロー中の人だけ持ってくる
+        let query = NCMBQuery(className: "Follow")
+        query?.includeKey("user")
+        query?.includeKey("following")
+        query?.whereKey("user", equalTo: NCMBUser.current())
+        query?.findObjectsInBackground({ (result, error) in
+            if error != nil {
+                SVProgressHUD.showError(withStatus: error!.localizedDescription)
+            } else {
+                self.followings = [NCMBUser]()
+                for following in result as! [NCMBObject] {
+                    self.followings.append(following.object(forKey: "following") as! NCMBUser)
+                }
+                self.followings.append(NCMBUser.current())
+                
+                self.loadTimeline()
+            }
+        })
+    }
 }

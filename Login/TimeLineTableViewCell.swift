@@ -8,7 +8,8 @@
 
 import UIKit
 
-protocol TimelineTableViewCellDelegate {
+//共通化
+protocol TimeLineTableViewCellDelegate {
     func didTapLikeButton(tableViewCell: UITableViewCell, button: UIButton)
     func didTapMenuButton(tableViewCell: UITableViewCell, button: UIButton)
     func didTapCommentsButton(tableViewCell: UITableViewCell, button: UIButton)
@@ -16,7 +17,7 @@ protocol TimelineTableViewCellDelegate {
 
 class TimeLineTableViewCell: UITableViewCell {
 
-    var delegate: TimelineTableViewCellDelegate?
+    var delegate: TimeLineTableViewCellDelegate?
     
     @IBOutlet weak var userImageView: UIImageView!
     
@@ -29,10 +30,9 @@ class TimeLineTableViewCell: UITableViewCell {
     @IBOutlet weak var likeCountLabel: UILabel!
     
     @IBOutlet weak var timeStampLabel: UILabel!
-
-    @IBOutlet weak var userTextView: UITextView!
     
     @IBOutlet weak var commentTextView: UITextView!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

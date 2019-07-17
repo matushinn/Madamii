@@ -42,7 +42,7 @@ class PostViewController: UIViewController, UINavigationControllerDelegate, UIIm
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
         
-        resizedImage = selectedImage.scale(byFactor: 0.3)
+        resizedImage = selectedImage.scale(byFactor: 0.6)
         
         postImageView.image = resizedImage
         
@@ -109,6 +109,7 @@ class PostViewController: UIViewController, UINavigationControllerDelegate, UIIm
         let data = resizedImage.pngData()
         // ここを変更（ファイル名無いので）
         let file = NCMBFile.file(with: data) as! NCMBFile
+        
         file.saveInBackground({ (error) in
             if error != nil {
                 SVProgressHUD.dismiss()

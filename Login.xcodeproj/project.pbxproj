@@ -19,6 +19,7 @@
 		3700A43822D2399100A8AFC7 /* tabbar-icon-search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3700A43422D2399000A8AFC7 /* tabbar-icon-search@2x.png */; };
 		3700A43B22D23B6E00A8AFC7 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700A43A22D23B6E00A8AFC7 /* PostViewController.swift */; };
 		379B03C322DEE88700F98751 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B03C222DEE88700F98751 /* Comment.swift */; };
+		379B03C522DF1E9200F98751 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B03C422DF1E9100F98751 /* CommentViewController.swift */; };
 		37B77DEC22CDC4EA0051F735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B77DEB22CDC4EA0051F735 /* AppDelegate.swift */; };
 		37B77DEE22CDC4EA0051F735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B77DED22CDC4EA0051F735 /* ViewController.swift */; };
 		37B77DF122CDC4EA0051F735 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B77DEF22CDC4EA0051F735 /* SignIn.storyboard */; };
@@ -50,6 +51,7 @@
 		3700A43422D2399000A8AFC7 /* tabbar-icon-search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-search@2x.png"; sourceTree = "<group>"; };
 		3700A43A22D23B6E00A8AFC7 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		379B03C222DEE88700F98751 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		379B03C422DF1E9100F98751 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 		37B77DE822CDC4EA0051F735 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B77DEB22CDC4EA0051F735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37B77DED22CDC4EA0051F735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				37FCE23222D307A6000C2025 /* Post.swift */,
 				37FCE23422D307B5000C2025 /* User.swift */,
 				379B03C222DEE88700F98751 /* Comment.swift */,
+				379B03C422DF1E9100F98751 /* CommentViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -252,9 +255,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Login/Pods-Login-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/NCMB/NCMB.framework",
 				"${BUILT_PRODUCTS_DIR}/NYXImagesKit/NYXImagesKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
@@ -263,9 +266,9 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NCMB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYXImagesKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
@@ -304,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				379B03C522DF1E9200F98751 /* CommentViewController.swift in Sources */,
 				3700A43B22D23B6E00A8AFC7 /* PostViewController.swift in Sources */,
 				37B77E0222CDCFEF0051F735 /* SignInViewController.swift in Sources */,
 				37B77E0022CDCFC20051F735 /* TopViewController.swift in Sources */,

@@ -11,7 +11,7 @@ target 'Login' do
 pod 'NYXImagesKit'
 pod 'UITextView+Placeholder'
 pod 'SVProgressHUD'
-pod 'Kingfisher'
+pod 'SDWebImage'
 pod 'SwiftDate'
 
 
