@@ -20,6 +20,9 @@
 		3700A43B22D23B6E00A8AFC7 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700A43A22D23B6E00A8AFC7 /* PostViewController.swift */; };
 		379B03C322DEE88700F98751 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B03C222DEE88700F98751 /* Comment.swift */; };
 		379B03C522DF1E9200F98751 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B03C422DF1E9100F98751 /* CommentViewController.swift */; };
+		379B03C822DF28E700F98751 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B03C622DF28E700F98751 /* SearchTableViewCell.swift */; };
+		379B03C922DF28E700F98751 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 379B03C722DF28E700F98751 /* SearchTableViewCell.xib */; };
+		379B03CB22DF2AAC00F98751 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B03CA22DF2AAC00F98751 /* SearchViewController.swift */; };
 		37B77DEC22CDC4EA0051F735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B77DEB22CDC4EA0051F735 /* AppDelegate.swift */; };
 		37B77DEE22CDC4EA0051F735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B77DED22CDC4EA0051F735 /* ViewController.swift */; };
 		37B77DF122CDC4EA0051F735 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B77DEF22CDC4EA0051F735 /* SignIn.storyboard */; };
@@ -52,6 +55,9 @@
 		3700A43A22D23B6E00A8AFC7 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		379B03C222DEE88700F98751 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		379B03C422DF1E9100F98751 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		379B03C622DF28E700F98751 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		379B03C722DF28E700F98751 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		379B03CA22DF2AAC00F98751 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		37B77DE822CDC4EA0051F735 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B77DEB22CDC4EA0051F735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37B77DED22CDC4EA0051F735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -161,6 +167,9 @@
 				37FCE23422D307B5000C2025 /* User.swift */,
 				379B03C222DEE88700F98751 /* Comment.swift */,
 				379B03C422DF1E9100F98751 /* CommentViewController.swift */,
+				379B03C622DF28E700F98751 /* SearchTableViewCell.swift */,
+				379B03C722DF28E700F98751 /* SearchTableViewCell.xib */,
+				379B03CA22DF2AAC00F98751 /* SearchViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -226,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3700A43622D2399100A8AFC7 /* tabbar-icon-home@2x.png in Resources */,
+				379B03C922DF28E700F98751 /* SearchTableViewCell.xib in Resources */,
 				3700A42922D230CF00A8AFC7 /* icons8-More-48.png in Resources */,
 				3700A42B22D230CF00A8AFC7 /* heart-fill@2x.png in Resources */,
 				37B77E0E22D189900051F735 /* TimeLineTableViewCell.xib in Resources */,
@@ -307,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				379B03CB22DF2AAC00F98751 /* SearchViewController.swift in Sources */,
 				379B03C522DF1E9200F98751 /* CommentViewController.swift in Sources */,
 				3700A43B22D23B6E00A8AFC7 /* PostViewController.swift in Sources */,
 				37B77E0222CDCFEF0051F735 /* SignInViewController.swift in Sources */,
@@ -320,6 +331,7 @@
 				37B77E0422CDCFFA0051F735 /* SignUpViewController.swift in Sources */,
 				37FCE23322D307A6000C2025 /* Post.swift in Sources */,
 				37FCE23522D307B5000C2025 /* User.swift in Sources */,
+				379B03C822DF28E700F98751 /* SearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +489,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.shotaroooe.Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -497,7 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.shotaroooe.Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

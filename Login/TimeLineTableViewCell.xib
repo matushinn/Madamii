@@ -43,14 +43,6 @@
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahe-nm-NvB">
-                        <rect key="frame" x="317" y="21" width="43" height="44"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <state key="normal" image="icons8-More-48"/>
-                        <connections>
-                            <action selector="openMenuWithButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ZqT-dn-Iqi"/>
-                        </connections>
-                    </button>
                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Y4-2I-0HU">
                         <rect key="frame" x="7" y="268" width="28" height="30"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -90,6 +82,14 @@
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahe-nm-NvB">
+                        <rect key="frame" x="332" y="11" width="43" height="44"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" image="icons8-More-48"/>
+                        <connections>
+                            <action selector="openMenuWithButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ZqT-dn-Iqi"/>
+                        </connections>
+                    </button>
                 </subviews>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

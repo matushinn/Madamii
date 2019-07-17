@@ -93,7 +93,7 @@
             </objects>
             <point key="canvasLocation" x="-407.19999999999999" y="-324.28785607196403"/>
         </scene>
-        <!--Timeline View Controller-->
+        <!--タイムライン-->
         <scene sceneID="9kr-zp-iGX">
             <objects>
                 <viewController id="cXW-dk-eeP" customClass="timelineViewController" customModule="Login" customModuleProvider="target" sceneMemberID="viewController">
@@ -101,9 +101,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="300" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WCe-Np-gwx">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="300" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WCe-Np-gwx">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="330" id="U8h-Y9-h7I">
@@ -118,9 +117,15 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WCe-Np-gwx" firstAttribute="top" secondItem="bkU-7M-csJ" secondAttribute="top" id="Ajj-jB-CkV"/>
+                            <constraint firstItem="WCe-Np-gwx" firstAttribute="trailing" secondItem="bkU-7M-csJ" secondAttribute="trailing" id="fxw-rD-b16"/>
+                            <constraint firstItem="WCe-Np-gwx" firstAttribute="bottom" secondItem="bkU-7M-csJ" secondAttribute="bottom" id="nhN-tk-qDd"/>
+                            <constraint firstItem="WCe-Np-gwx" firstAttribute="leading" secondItem="bkU-7M-csJ" secondAttribute="leading" id="oIM-Yh-Q8J"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="bkU-7M-csJ"/>
                     </view>
-                    <navigationItem key="navigationItem" id="yYg-Vc-fUY">
+                    <navigationItem key="navigationItem" title="タイムライン" id="yYg-Vc-fUY">
                         <barButtonItem key="backBarButtonItem" title="戻る" id="DCZ-3g-Kre"/>
                     </navigationItem>
                     <connections>
@@ -229,17 +234,42 @@
             </objects>
             <point key="canvasLocation" x="-2358" y="-1432"/>
         </scene>
-        <!--View Controller-->
+        <!--Search View Controller-->
         <scene sceneID="UFJ-wZ-wBN">
             <objects>
-                <viewController id="VK1-80-PkP" sceneMemberID="viewController">
+                <viewController id="VK1-80-PkP" customClass="SearchViewController" customModule="Login" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B12-KH-NIi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="x3r-Z3-3iq">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="3Gc-Xn-FfV">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3Gc-Xn-FfV" id="Ni7-IS-tdf">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="x3r-Z3-3iq" firstAttribute="trailing" secondItem="wJa-Rv-QOg" secondAttribute="trailing" id="5Rz-Cv-m7J"/>
+                            <constraint firstItem="x3r-Z3-3iq" firstAttribute="leading" secondItem="wJa-Rv-QOg" secondAttribute="leading" id="GSY-6k-ui9"/>
+                            <constraint firstItem="x3r-Z3-3iq" firstAttribute="top" secondItem="wJa-Rv-QOg" secondAttribute="top" id="Ixb-JH-2j8"/>
+                            <constraint firstItem="x3r-Z3-3iq" firstAttribute="bottom" secondItem="wJa-Rv-QOg" secondAttribute="bottom" id="bO6-EY-Iw4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="wJa-Rv-QOg"/>
                     </view>
                     <navigationItem key="navigationItem" id="Xfo-Xe-kRd"/>
+                    <connections>
+                        <outlet property="searchUserTableView" destination="x3r-Z3-3iq" id="xoe-dk-KUb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2b1-j1-YlC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -272,6 +302,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MSj-9C-6gv">
                                 <rect key="frame" x="16" y="221" width="130" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
