@@ -56,7 +56,7 @@ class EditProfileViewController: UIViewController,UITextViewDelegate,UITextField
             }
         } else {
             let storyboard = UIStoryboard(name: "SignIn", bundle: Bundle.main)
-            let rootViewController = storyboard.instantiateViewController(withIdentifier: "RootNavigationController")
+            let rootViewController = storyboard.instantiateViewController(withIdentifier: "SignInController")
             UIApplication.shared.keyWindow?.rootViewController = rootViewController
             
             // ログイン状態の保持
