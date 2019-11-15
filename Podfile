@@ -11,8 +11,11 @@ target 'Login' do
 pod 'NYXImagesKit'
 pod 'UITextView+Placeholder'
 pod 'SVProgressHUD'
-pod 'SDWebImage'
+pod 'Kingfisher'
 pod 'SwiftDate'
+pod 'Pastel'
+pod 'lottie-ios'
+pod 'Google-Mobile-Ads-SDK'
 
 
 end

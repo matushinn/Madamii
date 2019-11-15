@@ -1,25 +1,63 @@
 PODS:
+  - Google-Mobile-Ads-SDK (7.48.0):
+    - GoogleAppMeasurement (~> 6.0)
+  - GoogleAppMeasurement (6.1.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (6.2.4):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.2.4)
+  - GoogleUtilities/Logger (6.2.4):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.2.4):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.2.4):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.2.4)"
+  - GoogleUtilities/Reachability (6.2.4):
+    - GoogleUtilities/Logger
+  - Kingfisher (5.7.0)
+  - lottie-ios (3.1.2)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
   - NCMB (3.0.1)
   - NYXImagesKit (2.3)
-  - SDWebImage (5.0.6):
-    - SDWebImage/Core (= 5.0.6)
-  - SDWebImage/Core (5.0.6)
+  - Pastel (0.6.0)
   - SVProgressHUD (2.2.5)
   - SwiftDate (6.0.3)
   - "UITextView+Placeholder (1.2.1)"
 
 DEPENDENCIES:
+  - Google-Mobile-Ads-SDK
+  - Kingfisher
+  - lottie-ios
   - NCMB (from `https://github.com/NIFTYCloud-mbaas/ncmb_ios.git`, branch `develop`)
   - NYXImagesKit
-  - SDWebImage
+  - Pastel
   - SVProgressHUD
   - SwiftDate
   - "UITextView+Placeholder"
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - Kingfisher
+    - lottie-ios
+    - nanopb
     - NYXImagesKit
-    - SDWebImage
+    - Pastel
     - SVProgressHUD
     - SwiftDate
     - "UITextView+Placeholder"
@@ -35,13 +73,19 @@ CHECKOUT OPTIONS:
     :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
 
 SPEC CHECKSUMS:
+  Google-Mobile-Ads-SDK: 709fa768c3ba8e8b260d8cb085c607097fd3f79d
+  GoogleAppMeasurement: 47285fa897e5a125df56b9ef8750a1d81e4598a8
+  GoogleUtilities: 64b5e3982b1b01bda26712affd5c523ef32563cf
+  Kingfisher: c7d211b54f1f30d8060aadab177d52b4349c825b
+  lottie-ios: 49cd85b1f24f61a7708ad7ec76a523ab2d0e3100
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   NCMB: 470e5d51a643b0b77487792c179c1454ee0a55ae
   NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
-  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  Pastel: 814f081efbe2859c37e65ee44f396e6e5be88619
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftDate: 8d4f14bf1ef68e95094511504856547bf9e3e1a6
   "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
 
-PODFILE CHECKSUM: b2ab79bd7d62e615a1c214996e971d9013d3cc6d
+PODFILE CHECKSUM: c7da73df0a7e9ff65c4b167bde0918d048ed732c
 
 COCOAPODS: 1.5.3

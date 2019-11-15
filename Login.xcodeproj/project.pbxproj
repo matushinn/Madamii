@@ -18,10 +18,66 @@
 		3700A43722D2399100A8AFC7 /* tabbar-icon-user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3700A43322D2399000A8AFC7 /* tabbar-icon-user@2x.png */; };
 		3700A43822D2399100A8AFC7 /* tabbar-icon-search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3700A43422D2399000A8AFC7 /* tabbar-icon-search@2x.png */; };
 		3700A43B22D23B6E00A8AFC7 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700A43A22D23B6E00A8AFC7 /* PostViewController.swift */; };
+		371E6C6723518B7B00D8F0DC /* NewTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371E6C6623518B7B00D8F0DC /* NewTimelineViewController.swift */; };
+		371E6C692351D07D00D8F0DC /* ConfirmPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371E6C682351D07D00D8F0DC /* ConfirmPostViewController.swift */; };
+		371E6C6B2351D0A100D8F0DC /* ConfirmPostsCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371E6C6A2351D0A100D8F0DC /* ConfirmPostsCommentViewController.swift */; };
+		371E6C6D2351D0C200D8F0DC /* ConfirmCommentsReplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371E6C6C2351D0C200D8F0DC /* ConfirmCommentsReplyViewController.swift */; };
+		371EC831236B22F100E22339 /* resetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EC830236B22F100E22339 /* resetPasswordViewController.swift */; };
+		371F2F28236CFF0E005B6BEA /* servieTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371F2F27236CFF0E005B6BEA /* servieTermsViewController.swift */; };
+		371F2F2A236CFF1E005B6BEA /* PrivacyTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371F2F29236CFF1E005B6BEA /* PrivacyTermsViewController.swift */; };
+		3720449D233F2F46003C4F40 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3720449C233F2F46003C4F40 /* APIKey.swift */; };
+		372044BE23477107003C4F40 /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372044BC23477107003C4F40 /* CommentsTableViewCell.swift */; };
+		372044BF23477107003C4F40 /* CommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 372044BD23477107003C4F40 /* CommentsTableViewCell.xib */; };
+		372044C12348A63F003C4F40 /* PostCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372044C02348A63F003C4F40 /* PostCommentsViewController.swift */; };
+		372044C3234B95B3003C4F40 /* ReplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372044C2234B95B3003C4F40 /* ReplyViewController.swift */; };
+		372044C6234B95E1003C4F40 /* ReplyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372044C4234B95E1003C4F40 /* ReplyTableViewCell.swift */; };
+		372044C7234B95E1003C4F40 /* ReplyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 372044C5234B95E1003C4F40 /* ReplyTableViewCell.xib */; };
+		372044C9234B99B5003C4F40 /* Reply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372044C8234B99B5003C4F40 /* Reply.swift */; };
+		372044CB234C1933003C4F40 /* CommentsReplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372044CA234C1933003C4F40 /* CommentsReplyViewController.swift */; };
+		372044CD234C2B89003C4F40 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372044CC234C2B89003C4F40 /* SettingsViewController.swift */; };
+		372346D62372EBBD00621C9C /* onboard1.json in Resources */ = {isa = PBXBuildFile; fileRef = 372346D52372EBBD00621C9C /* onboard1.json */; };
+		372346E42372F16600621C9C /* onboard2.json in Resources */ = {isa = PBXBuildFile; fileRef = 372346E32372F16600621C9C /* onboard2.json */; };
+		372346E62372F18A00621C9C /* onboard3.json in Resources */ = {isa = PBXBuildFile; fileRef = 372346E52372F18900621C9C /* onboard3.json */; };
+		372347062377BFBA00621C9C /* README_GenJyuu.txt in Resources */ = {isa = PBXBuildFile; fileRef = 372346EA2377BFBA00621C9C /* README_GenJyuu.txt */; };
+		372347072377BFBA00621C9C /* GenJyuuGothic-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346EB2377BFBA00621C9C /* GenJyuuGothic-Light.ttf */; };
+		372347082377BFBA00621C9C /* GenJyuuGothic-P-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346EC2377BFBA00621C9C /* GenJyuuGothic-P-Bold.ttf */; };
+		372347092377BFBA00621C9C /* GenJyuuGothic-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346ED2377BFBA00621C9C /* GenJyuuGothic-Heavy.ttf */; };
+		3723470A2377BFBA00621C9C /* GenJyuuGothic-Monospace-Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346EE2377BFBA00621C9C /* GenJyuuGothic-Monospace-Normal.ttf */; };
+		3723470B2377BFBA00621C9C /* GenJyuuGothic-P-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346EF2377BFBA00621C9C /* GenJyuuGothic-P-Medium.ttf */; };
+		3723470C2377BFBA00621C9C /* GenJyuuGothic-Monospace-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346F02377BFBA00621C9C /* GenJyuuGothic-Monospace-Bold.ttf */; };
+		3723470D2377BFBA00621C9C /* GenJyuuGothic-Monospace-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346F12377BFBA00621C9C /* GenJyuuGothic-Monospace-ExtraLight.ttf */; };
+		3723470E2377BFBA00621C9C /* SIL_Open_Font_License_1.1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 372346F22377BFBA00621C9C /* SIL_Open_Font_License_1.1.txt */; };
+		3723470F2377BFBA00621C9C /* GenJyuuGothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346F32377BFBA00621C9C /* GenJyuuGothic-Bold.ttf */; };
+		372347102377BFBA00621C9C /* GenJyuuGothic-Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346F42377BFBA00621C9C /* GenJyuuGothic-Normal.ttf */; };
+		372347112377BFBA00621C9C /* GenJyuuGothic-Monospace-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346F52377BFBA00621C9C /* GenJyuuGothic-Monospace-Medium.ttf */; };
+		372347122377BFBA00621C9C /* GenJyuuGothic-Monospace-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346F62377BFBA00621C9C /* GenJyuuGothic-Monospace-Light.ttf */; };
+		372347132377BFBA00621C9C /* GenJyuuGothic-P-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346F72377BFBA00621C9C /* GenJyuuGothic-P-Light.ttf */; };
+		372347142377BFBA00621C9C /* GenJyuuGothic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346F82377BFBA00621C9C /* GenJyuuGothic-Regular.ttf */; };
+		372347152377BFBA00621C9C /* GenJyuuGothic-P-Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346F92377BFBA00621C9C /* GenJyuuGothic-P-Normal.ttf */; };
+		372347162377BFBA00621C9C /* GenJyuuGothic-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346FA2377BFBA00621C9C /* GenJyuuGothic-Medium.ttf */; };
+		372347172377BFBA00621C9C /* GenJyuuGothic-P-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346FB2377BFBA00621C9C /* GenJyuuGothic-P-Regular.ttf */; };
+		372347182377BFBA00621C9C /* GenJyuuGothic-P-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346FC2377BFBA00621C9C /* GenJyuuGothic-P-ExtraLight.ttf */; };
+		372347192377BFBA00621C9C /* GenJyuuGothic-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372346FD2377BFBA00621C9C /* GenJyuuGothic-ExtraLight.ttf */; };
+		3723471A2377BFBA00621C9C /* README_J in Resources */ = {isa = PBXBuildFile; fileRef = 372346FF2377BFBA00621C9C /* README_J */; };
+		3723471B2377BFBA00621C9C /* README_E in Resources */ = {isa = PBXBuildFile; fileRef = 372347002377BFBA00621C9C /* README_E */; };
+		3723471C2377BFBA00621C9C /* LICENSE_E in Resources */ = {isa = PBXBuildFile; fileRef = 372347012377BFBA00621C9C /* LICENSE_E */; };
+		3723471D2377BFBA00621C9C /* LICENSE_J in Resources */ = {isa = PBXBuildFile; fileRef = 372347022377BFBA00621C9C /* LICENSE_J */; };
+		3723471E2377BFBA00621C9C /* GenJyuuGothic-Monospace-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372347032377BFBA00621C9C /* GenJyuuGothic-Monospace-Heavy.ttf */; };
+		3723471F2377BFBA00621C9C /* GenJyuuGothic-Monospace-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372347042377BFBA00621C9C /* GenJyuuGothic-Monospace-Regular.ttf */; };
+		372347202377BFBA00621C9C /* GenJyuuGothic-P-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 372347052377BFBA00621C9C /* GenJyuuGothic-P-Heavy.ttf */; };
+		3723BF26237CF1F40051B500 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3723BF25237CF1F40051B500 /* MessageUI.framework */; };
+		372CCC392359AE2D00217135 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372CCC382359AE2C00217135 /* WebKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		372F8A83236A56C8002E8167 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F8A82236A56C8002E8167 /* ForgetViewController.swift */; };
+		372F8A85236AE98A002E8167 /* LineWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F8A84236AE98A002E8167 /* LineWebViewController.swift */; };
+		374CD66C2355DDE300FE5BF1 /* ShowUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374CD66B2355DDE300FE5BF1 /* ShowUserViewController.swift */; };
+		37664A432352ABD20053460E /* 解説１.key in Resources */ = {isa = PBXBuildFile; fileRef = 37664A3B2352ABD20053460E /* 解説１.key */; };
+		37664A442352ABD20053460E /* onboard4.json in Resources */ = {isa = PBXBuildFile; fileRef = 37664A3D2352ABD20053460E /* onboard4.json */; };
+		37664A452352ABD20053460E /* onboard5.json in Resources */ = {isa = PBXBuildFile; fileRef = 37664A3E2352ABD20053460E /* onboard5.json */; };
+		37664A492352ABD20053460E /* start.mov in Resources */ = {isa = PBXBuildFile; fileRef = 37664A422352ABD20053460E /* start.mov */; };
+		37664A4B2352AC8F0053460E /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37664A4A2352AC8F0053460E /* ScrollViewController.swift */; };
+		37664A4D2352CAF20053460E /* CompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37664A4C2352CAF20053460E /* CompanyViewController.swift */; };
 		379B03C322DEE88700F98751 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B03C222DEE88700F98751 /* Comment.swift */; };
 		379B03C522DF1E9200F98751 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B03C422DF1E9100F98751 /* CommentViewController.swift */; };
-		379B03C822DF28E700F98751 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B03C622DF28E700F98751 /* SearchTableViewCell.swift */; };
-		379B03C922DF28E700F98751 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 379B03C722DF28E700F98751 /* SearchTableViewCell.xib */; };
 		379B03CB22DF2AAC00F98751 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B03CA22DF2AAC00F98751 /* SearchViewController.swift */; };
 		37B77DEC22CDC4EA0051F735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B77DEB22CDC4EA0051F735 /* AppDelegate.swift */; };
 		37B77DEE22CDC4EA0051F735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B77DED22CDC4EA0051F735 /* ViewController.swift */; };
@@ -33,7 +89,6 @@
 		37B77E0422CDCFFA0051F735 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B77E0322CDCFFA0051F735 /* SignUpViewController.swift */; };
 		37B77E0622CDEB7D0051F735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B77E0522CDEB7D0051F735 /* Main.storyboard */; };
 		37B77E0822CE4B4C0051F735 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B77E0722CE4B4C0051F735 /* EditProfileViewController.swift */; };
-		37B77E0A22D177510051F735 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37B77E0922D177500051F735 /* placeholder.jpg */; };
 		37B77E0D22D189900051F735 /* TimeLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B77E0B22D189900051F735 /* TimeLineTableViewCell.swift */; };
 		37B77E0E22D189900051F735 /* TimeLineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B77E0C22D189900051F735 /* TimeLineTableViewCell.xib */; };
 		37FCE23322D307A6000C2025 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FCE23222D307A6000C2025 /* Post.swift */; };
@@ -47,18 +102,75 @@
 		3700A42722D230CF00A8AFC7 /* heart-fill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-fill@2x.png"; sourceTree = "<group>"; };
 		3700A42822D230CF00A8AFC7 /* icons8-Speech Bubble-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Speech Bubble-50.png"; sourceTree = "<group>"; };
 		3700A42D22D2320600A8AFC7 /* retweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retweet.png; sourceTree = "<group>"; };
-		3700A42F22D2346500A8AFC7 /* timelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timelineViewController.swift; sourceTree = "<group>"; };
+		3700A42F22D2346500A8AFC7 /* timelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = timelineViewController.swift; path = ../Views/timelineViewController.swift; sourceTree = "<group>"; };
 		3700A43122D2399000A8AFC7 /* tabbar-icon-add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-add@2x.png"; sourceTree = "<group>"; };
 		3700A43222D2399000A8AFC7 /* tabbar-icon-home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-home@2x.png"; sourceTree = "<group>"; };
 		3700A43322D2399000A8AFC7 /* tabbar-icon-user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-user@2x.png"; sourceTree = "<group>"; };
 		3700A43422D2399000A8AFC7 /* tabbar-icon-search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-search@2x.png"; sourceTree = "<group>"; };
 		3700A43A22D23B6E00A8AFC7 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		371E6C6623518B7B00D8F0DC /* NewTimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimelineViewController.swift; sourceTree = "<group>"; };
+		371E6C682351D07D00D8F0DC /* ConfirmPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPostViewController.swift; sourceTree = "<group>"; };
+		371E6C6A2351D0A100D8F0DC /* ConfirmPostsCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPostsCommentViewController.swift; sourceTree = "<group>"; };
+		371E6C6C2351D0C200D8F0DC /* ConfirmCommentsReplyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCommentsReplyViewController.swift; sourceTree = "<group>"; };
+		371EC830236B22F100E22339 /* resetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resetPasswordViewController.swift; sourceTree = "<group>"; };
+		371F2F27236CFF0E005B6BEA /* servieTermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = servieTermsViewController.swift; sourceTree = "<group>"; };
+		371F2F29236CFF1E005B6BEA /* PrivacyTermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyTermsViewController.swift; sourceTree = "<group>"; };
+		3720449C233F2F46003C4F40 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		372044BC23477107003C4F40 /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
+		372044BD23477107003C4F40 /* CommentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsTableViewCell.xib; sourceTree = "<group>"; };
+		372044C02348A63F003C4F40 /* PostCommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentsViewController.swift; sourceTree = "<group>"; };
+		372044C2234B95B3003C4F40 /* ReplyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyViewController.swift; sourceTree = "<group>"; };
+		372044C4234B95E1003C4F40 /* ReplyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyTableViewCell.swift; sourceTree = "<group>"; };
+		372044C5234B95E1003C4F40 /* ReplyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReplyTableViewCell.xib; sourceTree = "<group>"; };
+		372044C8234B99B5003C4F40 /* Reply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reply.swift; sourceTree = "<group>"; };
+		372044CA234C1933003C4F40 /* CommentsReplyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsReplyViewController.swift; sourceTree = "<group>"; };
+		372044CC234C2B89003C4F40 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		372346D52372EBBD00621C9C /* onboard1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = onboard1.json; path = ../../../../../../Downloads/onboard1.json; sourceTree = "<group>"; };
+		372346E32372F16600621C9C /* onboard2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = onboard2.json; path = ../../../../../../Downloads/onboard2.json; sourceTree = "<group>"; };
+		372346E52372F18900621C9C /* onboard3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = onboard3.json; path = ../../../../../../Downloads/onboard3.json; sourceTree = "<group>"; };
+		372346EA2377BFBA00621C9C /* README_GenJyuu.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README_GenJyuu.txt; sourceTree = "<group>"; };
+		372346EB2377BFBA00621C9C /* GenJyuuGothic-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Light.ttf"; sourceTree = "<group>"; };
+		372346EC2377BFBA00621C9C /* GenJyuuGothic-P-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-P-Bold.ttf"; sourceTree = "<group>"; };
+		372346ED2377BFBA00621C9C /* GenJyuuGothic-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Heavy.ttf"; sourceTree = "<group>"; };
+		372346EE2377BFBA00621C9C /* GenJyuuGothic-Monospace-Normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Monospace-Normal.ttf"; sourceTree = "<group>"; };
+		372346EF2377BFBA00621C9C /* GenJyuuGothic-P-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-P-Medium.ttf"; sourceTree = "<group>"; };
+		372346F02377BFBA00621C9C /* GenJyuuGothic-Monospace-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Monospace-Bold.ttf"; sourceTree = "<group>"; };
+		372346F12377BFBA00621C9C /* GenJyuuGothic-Monospace-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Monospace-ExtraLight.ttf"; sourceTree = "<group>"; };
+		372346F22377BFBA00621C9C /* SIL_Open_Font_License_1.1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SIL_Open_Font_License_1.1.txt; sourceTree = "<group>"; };
+		372346F32377BFBA00621C9C /* GenJyuuGothic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Bold.ttf"; sourceTree = "<group>"; };
+		372346F42377BFBA00621C9C /* GenJyuuGothic-Normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Normal.ttf"; sourceTree = "<group>"; };
+		372346F52377BFBA00621C9C /* GenJyuuGothic-Monospace-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Monospace-Medium.ttf"; sourceTree = "<group>"; };
+		372346F62377BFBA00621C9C /* GenJyuuGothic-Monospace-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Monospace-Light.ttf"; sourceTree = "<group>"; };
+		372346F72377BFBA00621C9C /* GenJyuuGothic-P-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-P-Light.ttf"; sourceTree = "<group>"; };
+		372346F82377BFBA00621C9C /* GenJyuuGothic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Regular.ttf"; sourceTree = "<group>"; };
+		372346F92377BFBA00621C9C /* GenJyuuGothic-P-Normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-P-Normal.ttf"; sourceTree = "<group>"; };
+		372346FA2377BFBA00621C9C /* GenJyuuGothic-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Medium.ttf"; sourceTree = "<group>"; };
+		372346FB2377BFBA00621C9C /* GenJyuuGothic-P-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-P-Regular.ttf"; sourceTree = "<group>"; };
+		372346FC2377BFBA00621C9C /* GenJyuuGothic-P-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-P-ExtraLight.ttf"; sourceTree = "<group>"; };
+		372346FD2377BFBA00621C9C /* GenJyuuGothic-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-ExtraLight.ttf"; sourceTree = "<group>"; };
+		372346FF2377BFBA00621C9C /* README_J */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README_J; sourceTree = "<group>"; };
+		372347002377BFBA00621C9C /* README_E */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README_E; sourceTree = "<group>"; };
+		372347012377BFBA00621C9C /* LICENSE_E */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_E; sourceTree = "<group>"; };
+		372347022377BFBA00621C9C /* LICENSE_J */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_J; sourceTree = "<group>"; };
+		372347032377BFBA00621C9C /* GenJyuuGothic-Monospace-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Monospace-Heavy.ttf"; sourceTree = "<group>"; };
+		372347042377BFBA00621C9C /* GenJyuuGothic-Monospace-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Monospace-Regular.ttf"; sourceTree = "<group>"; };
+		372347052377BFBA00621C9C /* GenJyuuGothic-P-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-P-Heavy.ttf"; sourceTree = "<group>"; };
+		3723BF25237CF1F40051B500 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		372CCC382359AE2C00217135 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		372F8A82236A56C8002E8167 /* ForgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetViewController.swift; sourceTree = "<group>"; };
+		372F8A84236AE98A002E8167 /* LineWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineWebViewController.swift; sourceTree = "<group>"; };
+		373C45002363C742005A46B3 /* Login.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Login.entitlements; sourceTree = "<group>"; };
+		374CD66B2355DDE300FE5BF1 /* ShowUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowUserViewController.swift; sourceTree = "<group>"; };
+		37664A3B2352ABD20053460E /* 解説１.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = "解説１.key"; sourceTree = "<group>"; };
+		37664A3D2352ABD20053460E /* onboard4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboard4.json; sourceTree = "<group>"; };
+		37664A3E2352ABD20053460E /* onboard5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboard5.json; sourceTree = "<group>"; };
+		37664A422352ABD20053460E /* start.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = start.mov; sourceTree = "<group>"; };
+		37664A4A2352AC8F0053460E /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		37664A4C2352CAF20053460E /* CompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyViewController.swift; sourceTree = "<group>"; };
 		379B03C222DEE88700F98751 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		379B03C422DF1E9100F98751 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
-		379B03C622DF28E700F98751 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
-		379B03C722DF28E700F98751 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
 		379B03CA22DF2AAC00F98751 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		37B77DE822CDC4EA0051F735 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B77DE822CDC4EA0051F735 /* マダミィ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "マダミィ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B77DEB22CDC4EA0051F735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37B77DED22CDC4EA0051F735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37B77DF022CDC4EA0051F735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SignIn.storyboard; sourceTree = "<group>"; };
@@ -70,7 +182,6 @@
 		37B77E0322CDCFFA0051F735 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		37B77E0522CDEB7D0051F735 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		37B77E0722CE4B4C0051F735 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
-		37B77E0922D177500051F735 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
 		37B77E0B22D189900051F735 /* TimeLineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineTableViewCell.swift; sourceTree = "<group>"; };
 		37B77E0C22D189900051F735 /* TimeLineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeLineTableViewCell.xib; sourceTree = "<group>"; };
 		37FCE23222D307A6000C2025 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -85,6 +196,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3723BF26237CF1F40051B500 /* MessageUI.framework in Frameworks */,
+				372CCC392359AE2D00217135 /* WebKit.framework in Frameworks */,
 				A385305BA7FEEE1B39A4B1A1 /* Pods_Login.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +208,8 @@
 		0D37A598EEFFC9001D7864D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3723BF25237CF1F40051B500 /* MessageUI.framework */,
+				372CCC382359AE2C00217135 /* WebKit.framework */,
 				464067CF2A081B3C1C5C6D9B /* Pods_Login.framework */,
 			);
 			name = Frameworks;
@@ -125,6 +240,143 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		37204498233F2EE1003C4F40 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37664A3A2352ABD20053460E /* onboardAppResource */,
+				37B77DF222CDC4EE0051F735 /* Assets.xcassets */,
+				3700A43922D239C500A8AFC7 /* Images */,
+				3720449C233F2F46003C4F40 /* APIKey.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		37204499233F2EF5003C4F40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				37FCE23222D307A6000C2025 /* Post.swift */,
+				37FCE23422D307B5000C2025 /* User.swift */,
+				379B03C222DEE88700F98751 /* Comment.swift */,
+				372044C8234B99B5003C4F40 /* Reply.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3720449A233F2EFC003C4F40 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37B77DEB22CDC4EA0051F735 /* AppDelegate.swift */,
+				3700A42F22D2346500A8AFC7 /* timelineViewController.swift */,
+				37B77DED22CDC4EA0051F735 /* ViewController.swift */,
+				37B77DFF22CDCFC20051F735 /* TopViewController.swift */,
+				37B77E0122CDCFEF0051F735 /* SignInViewController.swift */,
+				37B77E0322CDCFFA0051F735 /* SignUpViewController.swift */,
+				37B77E0722CE4B4C0051F735 /* EditProfileViewController.swift */,
+				37B77E0B22D189900051F735 /* TimeLineTableViewCell.swift */,
+				3700A43A22D23B6E00A8AFC7 /* PostViewController.swift */,
+				379B03C422DF1E9100F98751 /* CommentViewController.swift */,
+				379B03CA22DF2AAC00F98751 /* SearchViewController.swift */,
+				372044C02348A63F003C4F40 /* PostCommentsViewController.swift */,
+				372044C2234B95B3003C4F40 /* ReplyViewController.swift */,
+				372044CA234C1933003C4F40 /* CommentsReplyViewController.swift */,
+				372044CC234C2B89003C4F40 /* SettingsViewController.swift */,
+				371E6C6623518B7B00D8F0DC /* NewTimelineViewController.swift */,
+				371E6C682351D07D00D8F0DC /* ConfirmPostViewController.swift */,
+				371E6C6A2351D0A100D8F0DC /* ConfirmPostsCommentViewController.swift */,
+				371E6C6C2351D0C200D8F0DC /* ConfirmCommentsReplyViewController.swift */,
+				37664A4A2352AC8F0053460E /* ScrollViewController.swift */,
+				37664A4C2352CAF20053460E /* CompanyViewController.swift */,
+				374CD66B2355DDE300FE5BF1 /* ShowUserViewController.swift */,
+				372F8A82236A56C8002E8167 /* ForgetViewController.swift */,
+				372F8A84236AE98A002E8167 /* LineWebViewController.swift */,
+				371EC830236B22F100E22339 /* resetPasswordViewController.swift */,
+				371F2F27236CFF0E005B6BEA /* servieTermsViewController.swift */,
+				371F2F29236CFF1E005B6BEA /* PrivacyTermsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3720449B233F2F14003C4F40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37B77DEF22CDC4EA0051F735 /* SignIn.storyboard */,
+				37B77DF422CDC4EE0051F735 /* LaunchScreen.storyboard */,
+				37B77E0522CDEB7D0051F735 /* Main.storyboard */,
+				37B77E0C22D189900051F735 /* TimeLineTableViewCell.xib */,
+				372044BC23477107003C4F40 /* CommentsTableViewCell.swift */,
+				372044BD23477107003C4F40 /* CommentsTableViewCell.xib */,
+				372044C4234B95E1003C4F40 /* ReplyTableViewCell.swift */,
+				372044C5234B95E1003C4F40 /* ReplyTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		372346E92377BFBA00621C9C /* genjyuugothic-20150607 */ = {
+			isa = PBXGroup;
+			children = (
+				372346EA2377BFBA00621C9C /* README_GenJyuu.txt */,
+				372346EB2377BFBA00621C9C /* GenJyuuGothic-Light.ttf */,
+				372346EC2377BFBA00621C9C /* GenJyuuGothic-P-Bold.ttf */,
+				372346ED2377BFBA00621C9C /* GenJyuuGothic-Heavy.ttf */,
+				372346EE2377BFBA00621C9C /* GenJyuuGothic-Monospace-Normal.ttf */,
+				372346EF2377BFBA00621C9C /* GenJyuuGothic-P-Medium.ttf */,
+				372346F02377BFBA00621C9C /* GenJyuuGothic-Monospace-Bold.ttf */,
+				372346F12377BFBA00621C9C /* GenJyuuGothic-Monospace-ExtraLight.ttf */,
+				372346F22377BFBA00621C9C /* SIL_Open_Font_License_1.1.txt */,
+				372346F32377BFBA00621C9C /* GenJyuuGothic-Bold.ttf */,
+				372346F42377BFBA00621C9C /* GenJyuuGothic-Normal.ttf */,
+				372346F52377BFBA00621C9C /* GenJyuuGothic-Monospace-Medium.ttf */,
+				372346F62377BFBA00621C9C /* GenJyuuGothic-Monospace-Light.ttf */,
+				372346F72377BFBA00621C9C /* GenJyuuGothic-P-Light.ttf */,
+				372346F82377BFBA00621C9C /* GenJyuuGothic-Regular.ttf */,
+				372346F92377BFBA00621C9C /* GenJyuuGothic-P-Normal.ttf */,
+				372346FA2377BFBA00621C9C /* GenJyuuGothic-Medium.ttf */,
+				372346FB2377BFBA00621C9C /* GenJyuuGothic-P-Regular.ttf */,
+				372346FC2377BFBA00621C9C /* GenJyuuGothic-P-ExtraLight.ttf */,
+				372346FD2377BFBA00621C9C /* GenJyuuGothic-ExtraLight.ttf */,
+				372346FE2377BFBA00621C9C /* mplus-TESTFLIGHT-059 */,
+				372347032377BFBA00621C9C /* GenJyuuGothic-Monospace-Heavy.ttf */,
+				372347042377BFBA00621C9C /* GenJyuuGothic-Monospace-Regular.ttf */,
+				372347052377BFBA00621C9C /* GenJyuuGothic-P-Heavy.ttf */,
+			);
+			name = "genjyuugothic-20150607";
+			path = "../../../../../Downloads/genjyuugothic-20150607";
+			sourceTree = "<group>";
+		};
+		372346FE2377BFBA00621C9C /* mplus-TESTFLIGHT-059 */ = {
+			isa = PBXGroup;
+			children = (
+				372346FF2377BFBA00621C9C /* README_J */,
+				372347002377BFBA00621C9C /* README_E */,
+				372347012377BFBA00621C9C /* LICENSE_E */,
+				372347022377BFBA00621C9C /* LICENSE_J */,
+			);
+			path = "mplus-TESTFLIGHT-059";
+			sourceTree = "<group>";
+		};
+		37664A3A2352ABD20053460E /* onboardAppResource */ = {
+			isa = PBXGroup;
+			children = (
+				37664A3B2352ABD20053460E /* 解説１.key */,
+				37664A3C2352ABD20053460E /* onboards */,
+				37664A422352ABD20053460E /* start.mov */,
+				372346E92377BFBA00621C9C /* genjyuugothic-20150607 */,
+			);
+			path = onboardAppResource;
+			sourceTree = "<group>";
+		};
+		37664A3C2352ABD20053460E /* onboards */ = {
+			isa = PBXGroup;
+			children = (
+				372346E52372F18900621C9C /* onboard3.json */,
+				37664A3D2352ABD20053460E /* onboard4.json */,
+				372346E32372F16600621C9C /* onboard2.json */,
+				372346D52372EBBD00621C9C /* onboard1.json */,
+				37664A3E2352ABD20053460E /* onboard5.json */,
+			);
+			path = onboards;
+			sourceTree = "<group>";
+		};
 		37B77DDF22CDC4EA0051F735 = {
 			isa = PBXGroup;
 			children = (
@@ -138,7 +390,7 @@
 		37B77DE922CDC4EA0051F735 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37B77DE822CDC4EA0051F735 /* Login.app */,
+				37B77DE822CDC4EA0051F735 /* マダミィ.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,30 +398,12 @@
 		37B77DEA22CDC4EA0051F735 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				3700A43922D239C500A8AFC7 /* Images */,
-				37B77DEB22CDC4EA0051F735 /* AppDelegate.swift */,
-				37B77DED22CDC4EA0051F735 /* ViewController.swift */,
-				37B77DEF22CDC4EA0051F735 /* SignIn.storyboard */,
-				37B77DF222CDC4EE0051F735 /* Assets.xcassets */,
-				37B77DF422CDC4EE0051F735 /* LaunchScreen.storyboard */,
+				373C45002363C742005A46B3 /* Login.entitlements */,
 				37B77DF722CDC4EE0051F735 /* Info.plist */,
-				37B77DFF22CDCFC20051F735 /* TopViewController.swift */,
-				37B77E0122CDCFEF0051F735 /* SignInViewController.swift */,
-				37B77E0322CDCFFA0051F735 /* SignUpViewController.swift */,
-				37B77E0522CDEB7D0051F735 /* Main.storyboard */,
-				37B77E0722CE4B4C0051F735 /* EditProfileViewController.swift */,
-				37B77E0922D177500051F735 /* placeholder.jpg */,
-				37B77E0B22D189900051F735 /* TimeLineTableViewCell.swift */,
-				37B77E0C22D189900051F735 /* TimeLineTableViewCell.xib */,
-				3700A42F22D2346500A8AFC7 /* timelineViewController.swift */,
-				3700A43A22D23B6E00A8AFC7 /* PostViewController.swift */,
-				37FCE23222D307A6000C2025 /* Post.swift */,
-				37FCE23422D307B5000C2025 /* User.swift */,
-				379B03C222DEE88700F98751 /* Comment.swift */,
-				379B03C422DF1E9100F98751 /* CommentViewController.swift */,
-				379B03C622DF28E700F98751 /* SearchTableViewCell.swift */,
-				379B03C722DF28E700F98751 /* SearchTableViewCell.xib */,
-				379B03CA22DF2AAC00F98751 /* SearchViewController.swift */,
+				3720449B233F2F14003C4F40 /* Views */,
+				3720449A233F2EFC003C4F40 /* Controllers */,
+				37204499233F2EF5003C4F40 /* Models */,
+				37204498233F2EE1003C4F40 /* Resources */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -193,7 +427,7 @@
 			);
 			name = Login;
 			productName = Login;
-			productReference = 37B77DE822CDC4EA0051F735 /* Login.app */;
+			productReference = 37B77DE822CDC4EA0051F735 /* マダミィ.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -208,6 +442,14 @@
 				TargetAttributes = {
 					37B77DE722CDC4EA0051F735 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -235,21 +477,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				3700A43622D2399100A8AFC7 /* tabbar-icon-home@2x.png in Resources */,
-				379B03C922DF28E700F98751 /* SearchTableViewCell.xib in Resources */,
+				372347112377BFBA00621C9C /* GenJyuuGothic-Monospace-Medium.ttf in Resources */,
+				3723470B2377BFBA00621C9C /* GenJyuuGothic-P-Medium.ttf in Resources */,
+				37664A442352ABD20053460E /* onboard4.json in Resources */,
+				372044C7234B95E1003C4F40 /* ReplyTableViewCell.xib in Resources */,
+				372347072377BFBA00621C9C /* GenJyuuGothic-Light.ttf in Resources */,
+				3723470F2377BFBA00621C9C /* GenJyuuGothic-Bold.ttf in Resources */,
 				3700A42922D230CF00A8AFC7 /* icons8-More-48.png in Resources */,
+				372044BF23477107003C4F40 /* CommentsTableViewCell.xib in Resources */,
+				37664A492352ABD20053460E /* start.mov in Resources */,
 				3700A42B22D230CF00A8AFC7 /* heart-fill@2x.png in Resources */,
+				37664A452352ABD20053460E /* onboard5.json in Resources */,
 				37B77E0E22D189900051F735 /* TimeLineTableViewCell.xib in Resources */,
+				372347152377BFBA00621C9C /* GenJyuuGothic-P-Normal.ttf in Resources */,
+				3723470E2377BFBA00621C9C /* SIL_Open_Font_License_1.1.txt in Resources */,
+				372347202377BFBA00621C9C /* GenJyuuGothic-P-Heavy.ttf in Resources */,
+				372347092377BFBA00621C9C /* GenJyuuGothic-Heavy.ttf in Resources */,
 				3700A43722D2399100A8AFC7 /* tabbar-icon-user@2x.png in Resources */,
 				3700A42A22D230CF00A8AFC7 /* heart-outline@2x.png in Resources */,
+				3723471D2377BFBA00621C9C /* LICENSE_J in Resources */,
+				3723470C2377BFBA00621C9C /* GenJyuuGothic-Monospace-Bold.ttf in Resources */,
+				372347082377BFBA00621C9C /* GenJyuuGothic-P-Bold.ttf in Resources */,
+				3723470D2377BFBA00621C9C /* GenJyuuGothic-Monospace-ExtraLight.ttf in Resources */,
+				372347102377BFBA00621C9C /* GenJyuuGothic-Normal.ttf in Resources */,
 				37B77DF622CDC4EE0051F735 /* LaunchScreen.storyboard in Resources */,
+				372347162377BFBA00621C9C /* GenJyuuGothic-Medium.ttf in Resources */,
+				3723470A2377BFBA00621C9C /* GenJyuuGothic-Monospace-Normal.ttf in Resources */,
+				372347142377BFBA00621C9C /* GenJyuuGothic-Regular.ttf in Resources */,
+				372347062377BFBA00621C9C /* README_GenJyuu.txt in Resources */,
+				372346D62372EBBD00621C9C /* onboard1.json in Resources */,
 				3700A42C22D230CF00A8AFC7 /* icons8-Speech Bubble-50.png in Resources */,
 				3700A43822D2399100A8AFC7 /* tabbar-icon-search@2x.png in Resources */,
+				372347172377BFBA00621C9C /* GenJyuuGothic-P-Regular.ttf in Resources */,
+				372347182377BFBA00621C9C /* GenJyuuGothic-P-ExtraLight.ttf in Resources */,
+				372346E42372F16600621C9C /* onboard2.json in Resources */,
+				37664A432352ABD20053460E /* 解説１.key in Resources */,
 				37B77DF322CDC4EE0051F735 /* Assets.xcassets in Resources */,
+				372347132377BFBA00621C9C /* GenJyuuGothic-P-Light.ttf in Resources */,
+				3723471B2377BFBA00621C9C /* README_E in Resources */,
 				3700A43522D2399100A8AFC7 /* tabbar-icon-add@2x.png in Resources */,
 				3700A42E22D2320600A8AFC7 /* retweet.png in Resources */,
+				372347192377BFBA00621C9C /* GenJyuuGothic-ExtraLight.ttf in Resources */,
+				3723471C2377BFBA00621C9C /* LICENSE_E in Resources */,
+				3723471F2377BFBA00621C9C /* GenJyuuGothic-Monospace-Regular.ttf in Resources */,
+				3723471E2377BFBA00621C9C /* GenJyuuGothic-Monospace-Heavy.ttf in Resources */,
+				372346E62372F18A00621C9C /* onboard3.json in Resources */,
 				37B77DF122CDC4EA0051F735 /* SignIn.storyboard in Resources */,
-				37B77E0A22D177510051F735 /* placeholder.jpg in Resources */,
 				37B77E0622CDEB7D0051F735 /* Main.storyboard in Resources */,
+				372347122377BFBA00621C9C /* GenJyuuGothic-Monospace-Light.ttf in Resources */,
+				3723471A2377BFBA00621C9C /* README_J in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,23 +541,31 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Login/Pods-Login-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/NCMB/NCMB.framework",
 				"${BUILT_PRODUCTS_DIR}/NYXImagesKit/NYXImagesKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Pastel/Pastel.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NCMB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYXImagesKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pastel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -317,21 +601,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372044C12348A63F003C4F40 /* PostCommentsViewController.swift in Sources */,
 				379B03CB22DF2AAC00F98751 /* SearchViewController.swift in Sources */,
 				379B03C522DF1E9200F98751 /* CommentViewController.swift in Sources */,
+				37664A4B2352AC8F0053460E /* ScrollViewController.swift in Sources */,
 				3700A43B22D23B6E00A8AFC7 /* PostViewController.swift in Sources */,
 				37B77E0222CDCFEF0051F735 /* SignInViewController.swift in Sources */,
 				37B77E0022CDCFC20051F735 /* TopViewController.swift in Sources */,
+				371E6C692351D07D00D8F0DC /* ConfirmPostViewController.swift in Sources */,
+				372044C9234B99B5003C4F40 /* Reply.swift in Sources */,
+				371F2F2A236CFF1E005B6BEA /* PrivacyTermsViewController.swift in Sources */,
 				37B77E0822CE4B4C0051F735 /* EditProfileViewController.swift in Sources */,
+				371E6C6B2351D0A100D8F0DC /* ConfirmPostsCommentViewController.swift in Sources */,
 				37B77DEE22CDC4EA0051F735 /* ViewController.swift in Sources */,
+				372F8A85236AE98A002E8167 /* LineWebViewController.swift in Sources */,
 				37B77DEC22CDC4EA0051F735 /* AppDelegate.swift in Sources */,
+				371E6C6723518B7B00D8F0DC /* NewTimelineViewController.swift in Sources */,
 				3700A43022D2346500A8AFC7 /* timelineViewController.swift in Sources */,
+				372044CB234C1933003C4F40 /* CommentsReplyViewController.swift in Sources */,
 				379B03C322DEE88700F98751 /* Comment.swift in Sources */,
+				372044BE23477107003C4F40 /* CommentsTableViewCell.swift in Sources */,
+				3720449D233F2F46003C4F40 /* APIKey.swift in Sources */,
+				372044CD234C2B89003C4F40 /* SettingsViewController.swift in Sources */,
+				37664A4D2352CAF20053460E /* CompanyViewController.swift in Sources */,
+				372044C3234B95B3003C4F40 /* ReplyViewController.swift in Sources */,
 				37B77E0D22D189900051F735 /* TimeLineTableViewCell.swift in Sources */,
 				37B77E0422CDCFFA0051F735 /* SignUpViewController.swift in Sources */,
 				37FCE23322D307A6000C2025 /* Post.swift in Sources */,
 				37FCE23522D307B5000C2025 /* User.swift in Sources */,
-				379B03C822DF28E700F98751 /* SearchTableViewCell.swift in Sources */,
+				372F8A83236A56C8002E8167 /* ForgetViewController.swift in Sources */,
+				371F2F28236CFF0E005B6BEA /* servieTermsViewController.swift in Sources */,
+				372044C6234B95E1003C4F40 /* ReplyTableViewCell.swift in Sources */,
+				371EC831236B22F100E22339 /* resetPasswordViewController.swift in Sources */,
+				371E6C6D2351D0C200D8F0DC /* ConfirmCommentsReplyViewController.swift in Sources */,
+				374CD66C2355DDE300FE5BF1 /* ShowUserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +781,7 @@
 			baseConfigurationReference = FCAD8B8A2D1021C31B6BBC5A /* Pods-Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Login/Login.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M82FLD6C75;
 				INFOPLIST_FILE = Login/Info.plist;
@@ -487,7 +791,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.shotaroooe.Login;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "マダミィ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -498,6 +802,7 @@
 			baseConfigurationReference = DD58B626E914582E0C375599 /* Pods-Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Login/Login.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M82FLD6C75;
 				INFOPLIST_FILE = Login/Info.plist;
@@ -507,7 +812,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.shotaroooe.Login;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "マダミィ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
